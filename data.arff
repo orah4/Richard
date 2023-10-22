@@ -1,0 +1,616 @@
+@relation data
+
+@attribute Gender numeric
+@attribute Days {Sunday,Monday,Saturday,Tuesday,Thursday,Friday,Wednesday}
+@attribute AGE numeric
+@attribute Height numeric
+@attribute Weight numeric
+@attribute Calories numeric
+@attribute Fat {butter}
+@attribute Protein {Akara,'fish stew',moimoi,milk,egg,'egg sause','fried egg',saiden,beef,akara,'moimoi + egg',FISH,'BEANS PORTAGE',MEAT,'WHEAT, MEAT',MILK}
+@attribute Cabohydrate {Akamu,bread,pap,'okpa + pap','boild yam','okpa + custard',indomie,custard,cornflaks,cocopops,'fried ripe plantian','fried ripe plantian+ pap','POUNDED YAM','RIPE PLANTAIN','jellof rice','WHITE RICE',EBA,AMALA,FUFU,'JOLLOF RICE ','YAM PORTAGE ','GARRI + GRANDNUT'}
+@attribute Vegitable {'vegitable ',MELON,VEGITABLE,OKRA}
+@attribute Vitamin {'fruit ','boiled plantain','fried unripe plantain','WATER MELON',ORANGE,' APPLE'}
+@attribute Water {tea,'fruit juice'}
+@attribute Life_Style_Activity {Little_Or_No_Exercise,Ligth_Exercise,Moderate_Exercise,Heavy_Exercise,Very_Heavy}
+@attribute class {Breakfast,Dinner,Launch}
+
+@data
+1,Sunday,1,0.67,6,145.85,?,Akara,Akamu,?,?,?,Little_Or_No_Exercise,Breakfast
+1,Monday,3,0.77,13,229.35,?,'fish stew',bread,?,?,tea,Ligth_Exercise,Breakfast
+1,Saturday,1,0.56,7,159.1,?,moimoi,pap,?,?,?,Moderate_Exercise,Breakfast
+1,Saturday,2,0.66,9,180.4,?,milk,'okpa + pap',?,?,?,Heavy_Exercise,Breakfast
+1,Monday,13,1,20,259.1,?,egg,bread,?,?,'fruit juice',Very_Heavy,Breakfast
+1,Tuesday,3,0.45,13,227.75,?,'egg sause','boild yam',?,?,?,Little_Or_No_Exercise,Breakfast
+0,Thursday,27,1.98,30,822.362,?,milk,'okpa + custard',?,?,?,Ligth_Exercise,Breakfast
+0,Friday,5,0.88,18,807.512,?,egg,'boild yam','vegitable ',?,?,Moderate_Exercise,Breakfast
+0,Monday,8,0.9,22,832.17,butter,?,bread,?,?,tea,Heavy_Exercise,Breakfast
+0,Saturday,9,0.89,22,827.451,?,'fried egg',bread,?,?,?,Very_Heavy,Breakfast
+0,Sunday,10,0.67,24,841.693,?,egg,indomie,?,?,?,Little_Or_No_Exercise,Breakfast
+0,Monday,16,1.1,23,804.63,?,moimoi,custard,?,?,?,Ligth_Exercise,Breakfast
+0,Saturday,26,1.95,70,1214.205,?,saiden,bread,?,?,'fruit juice',Moderate_Exercise,Breakfast
+0,Saturday,2,0.67,9,734.093,?,milk,cornflaks,?,?,?,Heavy_Exercise,Breakfast
+1,Monday,31,2.56,65,765.5,?,egg,indomie,?,?,?,Very_Heavy,Breakfast
+1,Tuesday,37,2.54,78,904,?,milk,cocopops,?,'fruit ',?,Little_Or_No_Exercise,Breakfast
+1,Thursday,20,1.78,56,712.2,?,'fried egg','fried ripe plantian',?,?,?,Ligth_Exercise,Breakfast
+1,Friday,26,1.87,45,520.05,?,beef,?,'vegitable ','boiled plantain',?,Moderate_Exercise,Breakfast
+1,Monday,75,2.57,56,342.15,?,egg,'fried ripe plantian+ pap',?,?,?,Heavy_Exercise,Breakfast
+1,Saturday,70,1.67,78,675.25,?,akara,custard,?,?,?,Very_Heavy,Breakfast
+1,Sunday,5,0.88,17,271.5,?,egg,custard,?,'fried unripe plantain',?,Little_Or_No_Exercise,Breakfast
+1,Wednesday,6,0.65,20,304.95,?,Akara,Akamu,?,?,?,Ligth_Exercise,Breakfast
+1,Wednesday,9,1,23,327.7,?,'fish stew',bread,?,?,tea,Moderate_Exercise,Breakfast
+1,Friday,11,1.12,21,287.1,?,moimoi,pap,?,?,?,Heavy_Exercise,Breakfast
+1,Monday,12,1.23,29,391.25,?,milk,'okpa + pap',?,?,?,Very_Heavy,Breakfast
+1,Friday,16,1.45,34,434.15,?,egg,bread,?,?,'fruit juice',Little_Or_No_Exercise,Breakfast
+1,Thursday,18,1.67,31,380.25,?,egg,indomie,?,?,?,Ligth_Exercise,Breakfast
+0,Monday,19,1.5,39,943.05,?,moimoi,custard,?,?,?,Moderate_Exercise,Breakfast
+0,Friday,3,0.66,13,767.054,?,saiden,bread,?,?,'fruit juice',Heavy_Exercise,Breakfast
+0,Sunday,16,1.12,15,726.028,?,milk,cornflaks,?,?,?,Very_Heavy,Breakfast
+0,Monday,37,2.56,79,1244.464,?,egg,indomie,?,?,?,Little_Or_No_Exercise,Breakfast
+0,Saturday,45,3,89,1303.7,?,milk,cocopops,?,'fruit ',?,Ligth_Exercise,Breakfast
+0,Saturday,78,2.34,67,936.146,?,'fried egg','fried ripe plantian',?,?,?,Moderate_Exercise,Breakfast
+0,Monday,80,3.21,69,947.599,?,beef,?,'vegitable ','boiled plantain',?,Heavy_Exercise,Breakfast
+0,Tuesday,8,0.98,27,878.562,?,egg,'fried ripe plantian+ pap',?,?,?,Very_Heavy,Breakfast
+0,Thursday,5,0.45,16,786.055,?,milk,cocopops,?,'fruit ',?,Little_Or_No_Exercise,Breakfast
+0,Friday,6,0.56,22,839.164,?,'fried egg','fried ripe plantian',?,?,?,Ligth_Exercise,Breakfast
+0,Monday,73,2.54,65,940.826,?,beef,?,'vegitable ','boiled plantain',?,Moderate_Exercise,Breakfast
+0,Saturday,56,2.98,54,915.962,?,egg,'fried ripe plantian+ pap',?,?,?,Heavy_Exercise,Breakfast
+0,Sunday,17,1.2,34,903.88,?,egg,bread,?,?,'fruit juice',Very_Heavy,Breakfast
+0,Monday,36,2.75,67,1134.325,?,'egg sause','boild yam',?,?,?,Little_Or_No_Exercise,Breakfast
+0,Saturday,45,2.09,75,1167.571,?,milk,'okpa + custard',?,?,?,Ligth_Exercise,Breakfast
+0,Saturday,62,4.01,66,1004.919,?,egg,'boild yam','vegitable ',?,?,Moderate_Exercise,Breakfast
+0,Monday,45,3.21,86,1275.299,butter,?,bread,?,?,tea,Heavy_Exercise,Breakfast
+0,Tuesday,62,2.45,87,1203.555,?,'fried egg',bread,?,?,?,Very_Heavy,Breakfast
+0,Thursday,20,1.98,60,1140.862,?,egg,indomie,?,?,?,Little_Or_No_Exercise,Breakfast
+1,Friday,27,1.99,54,638.05,butter,?,bread,?,?,tea,Ligth_Exercise,Breakfast
+1,Monday,69,2.14,67,532.6,?,Akara,Akamu,?,?,?,Moderate_Exercise,Breakfast
+1,Saturday,21,1.78,65,829.6,?,'fish stew',bread,?,?,tea,Heavy_Exercise,Breakfast
+1,Sunday,23,2.12,78,997.1,?,'moimoi + egg',pap,?,?,?,Very_Heavy,Breakfast
+1,Wednesday,24,2.54,56,688.8,?,milk,'okpa + pap',?,?,?,Little_Or_No_Exercise,Breakfast
+1,Wednesday,28,2.98,45,512,?,egg,bread,?,?,'fruit juice',Ligth_Exercise,Breakfast
+1,Friday,26,1.2,56,668.5,?,'egg sause','boild yam',?,?,?,Moderate_Exercise,Breakfast
+1,Monday,24,2.75,78,993.45,?,milk,'okpa + custard',?,?,?,Heavy_Exercise,Breakfast
+1,Friday,17,2.09,34,430.55,?,egg,'boild yam','vegitable ',?,?,Very_Heavy,Breakfast
+1,Thursday,15,4.01,31,412.35,butter,?,bread,?,?,tea,Little_Or_No_Exercise,Breakfast
+1,Monday,80,3.21,56,311.35,?,'fried egg',bread,?,?,?,Ligth_Exercise,Breakfast
+1,Friday,78,2.45,56,321.15,?,egg,indomie,?,?,?,Moderate_Exercise,Breakfast
+1,Monday,74,1.98,45,194.2,?,moimoi,custard,?,?,?,Heavy_Exercise,Breakfast
+1,Friday,73,1.99,56,352.85,?,saiden,bread,?,?,'fruit juice',Very_Heavy,Breakfast
+1,Saturday,64,2.14,78,718.4,?,milk,cornflaks,?,?,?,Little_Or_No_Exercise,Breakfast
+1,Monday,67,2.56,34,92.9,?,egg,indomie,?,?,?,Ligth_Exercise,Breakfast
+1,Tuesday,68,1.95,31,41.65,?,milk,cocopops,?,'fruit ',?,Moderate_Exercise,Breakfast
+1,Wednesday,32,1.98,98,1211.2,?,'fried egg','fried ripe plantian',?,?,?,Heavy_Exercise,Breakfast
+0,Friday,25,2.56,65,1166.464,?,beef,?,'vegitable ','boiled plantain',?,Very_Heavy,Breakfast
+0,Monday,26,2.54,78,1286.526,?,egg,'fried ripe plantian+ pap',?,?,?,Little_Or_No_Exercise,Breakfast
+0,Tuesday,45,1.78,56,984.582,?,akara,custard,?,?,?,Ligth_Exercise,Breakfast
+0,Wednesday,12,1.87,45,1034.253,?,egg,custard,?,'fried unripe plantain',?,Moderate_Exercise,Breakfast
+0,Wednesday,10,1.56,32,918.264,?,egg,'boild yam','vegitable ',?,?,Heavy_Exercise,Breakfast
+0,Thursday,20,1.67,54,1082.673,butter,?,bread,?,?,tea,Very_Heavy,Breakfast
+0,Monday,30,1.95,47,969.005,?,'fried egg',bread,?,?,?,Little_Or_No_Exercise,Breakfast
+0,Tuesday,40,1.98,98,1411.662,?,egg,indomie,?,?,?,Ligth_Exercise,Breakfast
+0,Monday,50,2.56,65,1048.964,butter,?,bread,?,?,tea,Moderate_Exercise,Breakfast
+0,Friday,45,2.54,78,1197.226,?,Akara,Akamu,?,?,?,Heavy_Exercise,Breakfast
+0,Friday,60,1.78,56,914.082,?,'fish stew',bread,?,?,tea,Very_Heavy,Breakfast
+0,Tuesday,70,1.87,45,761.653,?,'moimoi + egg',pap,?,?,?,Little_Or_No_Exercise,Breakfast
+0,Thursday,70,1.56,32,636.264,?,milk,'okpa + pap',?,?,?,Ligth_Exercise,Breakfast
+1,Monday,13,1.67,33,441.85,?,egg,bread,?,?,'fruit juice',Moderate_Exercise,Breakfast
+1,Tuesday,2,0.78,10,194.8,?,'egg sause','boild yam',?,?,?,Heavy_Exercise,Breakfast
+1,Monday,4,1,13,223.7,?,egg,'fried ripe plantian+ pap',?,?,?,Very_Heavy,Breakfast
+1,Friday,6,0.99,21,320.45,?,akara,custard,?,?,?,Little_Or_No_Exercise,Breakfast
+1,Tuesday,16,1.01,24,293.95,?,egg,custard,?,'fried unripe plantain',?,Ligth_Exercise,Breakfast
+1,Monday,2,0.54,14,248.8,?,milk,cocopops,?,'fruit ',?,Moderate_Exercise,Breakfast
+1,Thursday,7,0.99,27,396.45,?,'fried egg','fried ripe plantian',?,?,?,Heavy_Exercise,Breakfast
+1,Monday,8,0.95,25,361.85,?,beef,?,'vegitable ','boiled plantain',?,Very_Heavy,Breakfast
+1,Wednesday,9,0.75,30,423.05,?,egg,'fried ripe plantian+ pap',?,?,?,Little_Or_No_Exercise,Breakfast
+1,Thursday,4,0.45,16,262.35,?,egg,bread,?,?,'fruit juice',Ligth_Exercise,Breakfast
+1,Monday,6,0.16,20,302.5,?,'egg sause','boild yam',?,?,?,Moderate_Exercise,Breakfast
+1,Friday,8,0.78,31,443.8,?,milk,'okpa + custard',?,?,?,Heavy_Exercise,Breakfast
+1,Saturday,62,4.01,56,437.75,?,'fried egg','fried ripe plantian',?,?,?,Very_Heavy,Breakfast
+1,Wednesday,75,3.76,45,196.3,?,beef,?,'vegitable ','boiled plantain',?,Little_Or_No_Exercise,Breakfast
+1,Monday,46,3.45,56,543.75,?,egg,'fried ripe plantian+ pap',?,?,?,Ligth_Exercise,Breakfast
+1,Wednesday,34,2.47,78,924.05,?,egg,bread,?,?,'fruit juice',Moderate_Exercise,Breakfast
+1,Monday,46,1.98,34,232.8,?,'egg sause','boild yam',?,?,?,Heavy_Exercise,Breakfast
+1,Tuesday,48,2.56,31,180.7,?,milk,'okpa + custard',?,?,?,Very_Heavy,Breakfast
+1,Thursday,49,1.56,98,1093.5,?,beef,?,'vegitable ','boiled plantain',?,Little_Or_No_Exercise,Breakfast
+1,Monday,53,1.67,65,611.45,?,egg,'fried ripe plantian+ pap',?,?,?,Ligth_Exercise,Breakfast
+1,Friday,56,1.95,78,771.85,?,egg,bread,?,?,'fruit juice',Moderate_Exercise,Breakfast
+1,Sunday,54,1.98,56,482,?,'egg sause','boild yam',?,?,?,Heavy_Exercise,Breakfast
+1,Sunday,68,2.56,45,237.9,?,milk,'okpa + custard',?,?,?,Very_Heavy,Breakfast
+0,Saturday,58,2.54,67,1030.526,?,egg,indomie,?,?,?,Little_Or_No_Exercise,Breakfast
+0,Friday,34,2.54,56,1037.726,?,milk,cocopops,?,'fruit ',?,Ligth_Exercise,Breakfast
+0,Monday,16,1.78,40,967.282,?,'fried egg','fried ripe plantian',?,?,?,Moderate_Exercise,Breakfast
+0,Friday,48,1.87,54,951.453,?,beef,?,'vegitable ','boiled plantain',?,Heavy_Exercise,Breakfast
+0,Saturday,15,1.56,34,913.964,?,egg,'fried ripe plantian+ pap',?,?,?,Very_Heavy,Breakfast
+0,Monday,48,1.67,56,970.273,?,akara,custard,?,?,?,Little_Or_No_Exercise,Breakfast
+0,Tuesday,18,1.95,45,1006.205,?,egg,custard,?,'fried unripe plantain',?,Ligth_Exercise,Breakfast
+0,Thursday,10,1.98,28,880.662,?,egg,'boild yam','vegitable ',?,?,Moderate_Exercise,Breakfast
+0,Wednesday,11,2.56,26,857.864,butter,?,bread,?,?,tea,Heavy_Exercise,Breakfast
+0,Sunday,45,2.54,40,832.426,?,'fried egg',bread,?,?,?,Very_Heavy,Breakfast
+0,Monday,58,1.78,54,904.282,?,egg,indomie,?,?,?,Little_Or_No_Exercise,Breakfast
+0,Friday,26,1.87,65,1160.453,butter,?,bread,?,?,tea,Ligth_Exercise,Breakfast
+0,Thursday,28,1.56,75,1246.464,?,Akara,Akamu,?,?,?,Moderate_Exercise,Breakfast
+0,Monday,29,1.67,59,1088.373,?,'fish stew',bread,?,?,tea,Heavy_Exercise,Breakfast
+1,Friday,10,1.95,28,394.65,?,'moimoi + egg',pap,?,?,?,Very_Heavy,Breakfast
+1,Thursday,11,1.98,31,429.4,?,milk,'okpa + pap',?,?,?,Little_Or_No_Exercise,Breakfast
+1,Friday,15,1.87,40,525.85,?,egg,bread,?,?,'fruit juice',Ligth_Exercise,Breakfast
+1,Wednesday,18,1.66,54,697.6,?,'egg sause','boild yam',?,?,?,Moderate_Exercise,Breakfast
+1,Friday,29,1.98,65,776.2,?,egg,'fried ripe plantian+ pap',?,?,?,Heavy_Exercise,Breakfast
+1,Thursday,33,1.78,67,775.6,?,akara,custard,?,?,?,Very_Heavy,Breakfast
+1,Monday,47,1.87,75,791.25,?,egg,custard,?,'fried unripe plantain',?,Little_Or_No_Exercise,Breakfast
+1,Friday,53,1.56,59,528.1,?,milk,cocopops,?,'fruit ',?,Ligth_Exercise,Breakfast
+1,Saturday,28,1.67,28,270.85,?,'fried egg','fried ripe plantian',?,?,?,Moderate_Exercise,Breakfast
+1,Sunday,19,1.95,31,374.85,?,beef,?,'vegitable ','boiled plantain',?,Heavy_Exercise,Breakfast
+1,Saturday,20,1.98,40,492.4,?,egg,'fried ripe plantian+ pap',?,?,?,Very_Heavy,Breakfast
+1,Monday,56,2.56,54,443.7,?,egg,bread,?,?,'fruit juice',Little_Or_No_Exercise,Breakfast
+1,Friday,12,1.66,31,421,?,'egg sause','boild yam',?,?,?,Ligth_Exercise,Breakfast
+1,Sunday,35,1.98,59,652.6,?,milk,'okpa + custard',?,?,?,Moderate_Exercise,Breakfast
+1,Sunday,43,1.78,64,666.2,butter,?,bread,?,?,tea,Heavy_Exercise,Breakfast
+1,Saturday,2,0.2,9,178.1,?,Akara,Akamu,?,?,?,Very_Heavy,Breakfast
+1,Friday,3,0.56,9,173.1,?,'fish stew',bread,?,?,tea,Little_Or_No_Exercise,Breakfast
+1,Monday,4,0.63,10,180.45,?,'moimoi + egg',pap,?,?,?,Ligth_Exercise,Breakfast
+1,Friday,18,1.87,35,436.45,?,milk,'okpa + pap',?,?,?,Moderate_Exercise,Breakfast
+0,Saturday,16,1.56,33,899.664,?,egg,bread,?,?,'fruit juice',Heavy_Exercise,Breakfast
+0,Monday,17,1.67,35,914.373,?,'egg sause','boild yam',?,?,?,Very_Heavy,Breakfast
+0,Tuesday,19,1.95,58,1126.305,?,milk,'okpa + custard',?,?,?,Little_Or_No_Exercise,Breakfast
+0,Thursday,15,1.98,32,895.562,?,egg,'boild yam','vegitable ',?,?,Ligth_Exercise,Breakfast
+0,Wednesday,19,2.56,40,954.664,butter,?,bread,?,?,tea,Moderate_Exercise,Breakfast
+0,Sunday,15,1.66,37,942.954,?,egg,'fried ripe plantian+ pap',?,?,?,Heavy_Exercise,Breakfast
+0,Monday,61,2.09,69,1034.771,?,egg,bread,?,?,'fruit juice',Very_Heavy,Breakfast
+0,Friday,19,1.56,46,1010.364,?,'egg sause','boild yam',?,?,?,Little_Or_No_Exercise,Breakfast
+0,Thursday,20,1.67,69,1226.673,?,milk,'okpa + custard',?,?,?,Ligth_Exercise,Breakfast
+0,Monday,32,1.95,66,1142.005,butter,?,bread,?,?,tea,Moderate_Exercise,Breakfast
+0,Friday,71,1.98,54,843.562,?,Akara,Akamu,?,?,?,Heavy_Exercise,Breakfast
+0,Saturday,44,2.56,101,1422.764,?,'fish stew',bread,?,?,tea,Very_Heavy,Breakfast
+0,Monday,84,1.66,59,829.854,?,'moimoi + egg',pap,?,?,?,Little_Or_No_Exercise,Breakfast
+0,Friday,26,2.09,34,863.271,?,milk,'okpa + pap',?,?,?,Ligth_Exercise,Breakfast
+0,Sunday,30,2.56,31,816.564,?,egg,bread,?,?,'fruit juice',Moderate_Exercise,Breakfast
+0,Sunday,55,2.54,40,785.426,?,egg,'fried ripe plantian+ pap',?,?,?,Heavy_Exercise,Breakfast
+0,Saturday,56,1.78,54,913.682,?,egg,bread,?,?,'fruit juice',Very_Heavy,Breakfast
+0,Friday,67,1.87,69,1006.153,?,'moimoi + egg',pap,?,?,?,Little_Or_No_Exercise,Breakfast
+0,Monday,58,1.56,66,1019.064,?,milk,'okpa + pap',?,?,?,Ligth_Exercise,Breakfast
+0,Friday,59,1.67,54,899.373,?,egg,bread,?,?,'fruit juice',Moderate_Exercise,Breakfast
+0,Saturday,60,1.95,65,1000.805,?,'fish stew',bread,?,?,tea,Heavy_Exercise,Breakfast
+0,Monday,66,1.98,59,915.062,?,'moimoi + egg',pap,?,?,?,Very_Heavy,Breakfast
+0,Tuesday,53,1.87,34,735.953,?,milk,'okpa + pap',?,?,?,Little_Or_No_Exercise,Breakfast
+1,Thursday,61,1.66,31,87.8,?,egg,bread,?,?,'fruit juice',Ligth_Exercise,Breakfast
+1,Wednesday,68,1.98,40,166,?,egg,'fried ripe plantian+ pap',?,?,?,Moderate_Exercise,Breakfast
+1,Sunday,69,1.78,54,351.4,?,egg,bread,?,?,'fruit juice',Heavy_Exercise,Breakfast
+1,Monday,56,1.87,75,730.05,?,'moimoi + egg',pap,?,?,?,Very_Heavy,Breakfast
+1,Friday,43,1.56,59,596.1,?,milk,'okpa + pap',?,?,?,Little_Or_No_Exercise,Breakfast
+1,Thursday,44,1.67,28,162.05,?,egg,bread,?,?,'fruit juice',Ligth_Exercise,Breakfast
+1,Monday,45,3.45,31,205.55,?,'moimoi + egg',pap,?,?,?,Moderate_Exercise,Breakfast
+1,Friday,47,2.47,40,311.25,?,milk,'okpa + pap',?,?,?,Heavy_Exercise,Breakfast
+1,Friday,48,1.98,54,495.2,?,egg,bread,?,?,'fruit juice',Very_Heavy,Breakfast
+1,Monday,50,2.56,65,636.3,butter,?,bread,?,?,tea,Little_Or_No_Exercise,Breakfast
+1,Saturday,52,1.56,67,645.3,?,Akara,Akamu,?,?,?,Ligth_Exercise,Breakfast
+1,Monday,33,1.67,75,885.45,?,'fish stew',bread,?,?,tea,Moderate_Exercise,Breakfast
+1,Friday,34,1.95,59,659.25,?,'moimoi + egg',pap,?,?,?,Heavy_Exercise,Breakfast
+1,Sunday,37,1.98,28,211.2,?,milk,'okpa + pap',?,?,?,Very_Heavy,Breakfast
+1,Sunday,38,2.56,31,248.7,?,egg,bread,?,?,'fruit juice',Little_Or_No_Exercise,Breakfast
+1,Saturday,39,2.54,40,366,?,'egg sause','boild yam',?,?,?,Ligth_Exercise,Breakfast
+1,Friday,33,2.54,31,282.6,?,milk,'okpa + custard',?,?,?,Moderate_Exercise,Breakfast
+1,Monday,31,1.78,40,416.6,?,egg,'boild yam','vegitable ',?,?,Heavy_Exercise,Breakfast
+1,Friday,20,1.87,54,685.05,butter,?,bread,?,?,tea,Very_Heavy,Breakfast
+1,Saturday,30,1.56,65,767.3,?,egg,'fried ripe plantian+ pap',?,?,?,Little_Or_No_Exercise,Breakfast
+0,Monday,27,1.67,67,1174.573,?,egg,bread,?,?,'fruit juice',Ligth_Exercise,Breakfast
+0,Tuesday,28,1.95,75,1247.205,?,'egg sause','boild yam',?,?,?,Moderate_Exercise,Breakfast
+0,Thursday,29,2.54,59,1090.026,?,milk,'okpa + custard',?,?,?,Heavy_Exercise,Breakfast
+0,Wednesday,27,1.78,28,800.382,butter,?,bread,?,?,tea,Very_Heavy,Breakfast
+0,Sunday,26,1.87,67,1179.653,?,Akara,Akamu,?,?,?,Little_Or_No_Exercise,Breakfast
+0,Monday,25,1.56,75,1260.564,?,Akara,Akamu,?,?,?,Ligth_Exercise,Breakfast
+0,Friday,24,1.67,59,1111.873,?,'fish stew',bread,?,?,tea,Moderate_Exercise,Breakfast
+0,Monday,23,1.95,28,819.505,?,moimoi,pap,?,?,?,Heavy_Exercise,Breakfast
+0,Friday,22,1.98,40,939.462,?,milk,'okpa + pap',?,?,?,Very_Heavy,Breakfast
+0,Sunday,21,1.87,54,1078.353,?,egg,bread,?,?,'fruit juice',Little_Or_No_Exercise,Breakfast
+0,Sunday,8,0.67,32,925.973,?,'egg sause','boild yam',?,?,?,Ligth_Exercise,Breakfast
+0,Saturday,88,1.98,67,888.462,?,milk,'okpa + custard',?,?,?,Moderate_Exercise,Breakfast
+0,Friday,86,1.78,55,782.282,?,egg,'boild yam','vegitable ',?,?,Heavy_Exercise,Breakfast
+0,Monday,12,1.87,35,938.253,butter,?,bread,'vegitable ',?,tea,Very_Heavy,Breakfast
+0,Friday,45,2.56,99,1398.864,?,'fried egg',bread,'vegitable ',?,?,Little_Or_No_Exercise,Breakfast
+0,Saturday,21,1.87,24,790.353,?,egg,indomie,'vegitable ',?,?,Ligth_Exercise,Breakfast
+0,Monday,10,1.56,23,831.864,?,moimoi,custard,'vegitable ',?,?,Moderate_Exercise,Breakfast
+0,Tuesday,9,1.01,27,873.919,?,milk,'okpa + custard','vegitable ',?,?,Heavy_Exercise,Breakfast
+0,Thursday,5,0.67,19,815.273,?,egg,'boild yam','vegitable ',?,?,Very_Heavy,Breakfast
+1,Wednesday,4,0.54,15,249,butter,?,bread,?,?,tea,Little_Or_No_Exercise,Breakfast
+1,Sunday,17,1.78,28,346.2,?,'fried egg',bread,?,?,?,Ligth_Exercise,Breakfast
+1,Monday,9,0.93,21,299.75,?,egg,indomie,?,?,?,Moderate_Exercise,Breakfast
+1,Friday,15,1.02,30,383.6,?,moimoi,custard,?,?,?,Heavy_Exercise,Breakfast
+1,Sunday,1,0.67,6,145.85,butter,FISH,'POUNDED YAM',MELON,'WATER MELON',tea,Very_Heavy,Dinner
+1,Monday,3,0.77,13,229.35,butter,'BEANS PORTAGE','RIPE PLANTAIN',MELON,'WATER MELON',tea,Little_Or_No_Exercise,Dinner
+1,Saturday,1,0.56,7,159.1,butter,egg,'jellof rice',MELON,'WATER MELON',tea,Ligth_Exercise,Dinner
+1,Saturday,2,0.66,9,180.4,butter,MEAT,'WHITE RICE',MELON,'WATER MELON',tea,Moderate_Exercise,Dinner
+1,Monday,13,1,20,259.1,butter,MEAT,EBA,VEGITABLE,'WATER MELON',tea,Heavy_Exercise,Dinner
+1,Tuesday,3,0.45,13,227.75,butter,FISH,AMALA,OKRA,'WATER MELON',tea,Very_Heavy,Dinner
+0,Thursday,27,1.98,30,822.362,butter,egg,'jellof rice',OKRA,'WATER MELON',tea,Little_Or_No_Exercise,Dinner
+0,Friday,5,0.88,18,807.512,butter,MEAT,'WHITE RICE',OKRA,'WATER MELON',tea,Ligth_Exercise,Dinner
+0,Monday,8,0.9,22,832.17,butter,MEAT,EBA,VEGITABLE,'WATER MELON',tea,Moderate_Exercise,Dinner
+0,Saturday,9,0.89,22,827.451,butter,FISH,AMALA,OKRA,'WATER MELON',tea,Heavy_Exercise,Dinner
+0,Sunday,10,0.67,24,841.693,butter,?,FUFU,MELON,ORANGE,tea,Very_Heavy,Dinner
+0,Monday,16,1.1,23,804.63,butter,FISH,'JOLLOF RICE ',?,' APPLE',tea,Little_Or_No_Exercise,Dinner
+0,Saturday,26,1.95,70,1214.205,butter,FISH,'JOLLOF RICE ',?,' APPLE',tea,Ligth_Exercise,Dinner
+0,Saturday,2,0.67,9,734.093,butter,'WHEAT, MEAT',?,OKRA,'WATER MELON',tea,Moderate_Exercise,Dinner
+1,Monday,31,2.56,65,765.5,butter,MEAT,'WHITE RICE',?,'WATER MELON',tea,Heavy_Exercise,Dinner
+1,Tuesday,37,2.54,78,904,butter,MEAT,EBA,VEGITABLE,'WATER MELON',tea,Very_Heavy,Dinner
+1,Thursday,20,1.78,56,712.2,butter,FISH,AMALA,OKRA,'WATER MELON',tea,Little_Or_No_Exercise,Dinner
+1,Friday,26,1.87,45,520.05,butter,?,FUFU,MELON,ORANGE,tea,Ligth_Exercise,Dinner
+1,Monday,75,2.57,56,342.15,butter,FISH,'JOLLOF RICE ',MELON,' APPLE',tea,Moderate_Exercise,Dinner
+1,Saturday,70,1.67,78,675.25,butter,FISH,'JOLLOF RICE ',MELON,' APPLE',tea,Heavy_Exercise,Dinner
+1,Sunday,5,0.88,17,271.5,butter,'WHEAT, MEAT',?,OKRA,'WATER MELON',tea,Very_Heavy,Dinner
+1,Wednesday,6,0.65,20,304.95,butter,'WHEAT, MEAT',?,OKRA,'WATER MELON',tea,Little_Or_No_Exercise,Dinner
+1,Wednesday,9,1,23,327.7,butter,FISH,'POUNDED YAM',MELON,'WATER MELON',tea,Ligth_Exercise,Dinner
+1,Friday,11,1.12,21,287.1,butter,'BEANS PORTAGE','RIPE PLANTAIN',?,?,tea,Moderate_Exercise,Dinner
+1,Monday,12,1.23,29,391.25,butter,?,FUFU,MELON,ORANGE,tea,Heavy_Exercise,Dinner
+1,Friday,16,1.45,34,434.15,butter,FISH,'JOLLOF RICE ',MELON,' APPLE',tea,Very_Heavy,Dinner
+1,Thursday,18,1.67,31,380.25,butter,'WHEAT, MEAT',?,OKRA,'WATER MELON',tea,Little_Or_No_Exercise,Dinner
+0,Monday,19,1.5,39,943.05,butter,FISH,'POUNDED YAM',MELON,'WATER MELON',tea,Ligth_Exercise,Dinner
+0,Friday,3,0.66,13,767.054,butter,'BEANS PORTAGE','RIPE PLANTAIN',?,?,tea,Moderate_Exercise,Dinner
+0,Sunday,16,1.12,15,726.028,butter,egg,'jellof rice',?,?,tea,Heavy_Exercise,Dinner
+0,Monday,37,2.56,79,1244.464,butter,?,FUFU,MELON,ORANGE,tea,Very_Heavy,Dinner
+0,Saturday,45,3,89,1303.7,butter,FISH,'JOLLOF RICE ',?,' APPLE',tea,Little_Or_No_Exercise,Dinner
+0,Saturday,78,2.34,67,936.146,butter,'WHEAT, MEAT',?,OKRA,'WATER MELON',tea,Ligth_Exercise,Dinner
+0,Monday,80,3.21,69,947.599,butter,FISH,'POUNDED YAM',MELON,'WATER MELON',tea,Moderate_Exercise,Dinner
+0,Tuesday,8,0.98,27,878.562,butter,'BEANS PORTAGE','RIPE PLANTAIN',?,?,tea,Heavy_Exercise,Dinner
+0,Thursday,5,0.45,16,786.055,butter,?,FUFU,MELON,ORANGE,tea,Very_Heavy,Dinner
+0,Friday,6,0.56,22,839.164,butter,FISH,'JOLLOF RICE ',?,' APPLE',tea,Little_Or_No_Exercise,Dinner
+0,Monday,73,2.54,65,940.826,butter,'WHEAT, MEAT',?,OKRA,'WATER MELON',tea,Ligth_Exercise,Dinner
+0,Saturday,56,2.98,54,915.962,butter,FISH,'POUNDED YAM',MELON,'WATER MELON',tea,Moderate_Exercise,Dinner
+0,Sunday,17,1.2,34,903.88,butter,'BEANS PORTAGE','RIPE PLANTAIN',MELON,?,tea,Heavy_Exercise,Dinner
+0,Monday,36,2.75,67,1134.325,butter,MEAT,'WHITE RICE',MELON,?,tea,Very_Heavy,Dinner
+0,Saturday,45,2.09,75,1167.571,butter,MEAT,EBA,VEGITABLE,?,tea,Little_Or_No_Exercise,Dinner
+0,Saturday,62,4.01,66,1004.919,butter,egg,'jellof rice',?,ORANGE,tea,Ligth_Exercise,Dinner
+0,Monday,45,3.21,86,1275.299,butter,MEAT,'WHITE RICE',?,ORANGE,tea,Moderate_Exercise,Dinner
+0,Tuesday,62,2.45,87,1203.555,butter,'WHEAT, MEAT',?,OKRA,'WATER MELON',tea,Heavy_Exercise,Dinner
+0,Thursday,20,1.98,60,1140.862,butter,FISH,'POUNDED YAM',MELON,'WATER MELON',tea,Very_Heavy,Dinner
+1,Friday,27,1.99,54,638.05,butter,'BEANS PORTAGE','RIPE PLANTAIN',MELON,'WATER MELON',tea,Little_Or_No_Exercise,Dinner
+1,Monday,69,2.14,67,532.6,butter,egg,'jellof rice',MELON,'WATER MELON',tea,Ligth_Exercise,Dinner
+1,Saturday,21,1.78,65,829.6,butter,?,FUFU,MELON,ORANGE,tea,Moderate_Exercise,Dinner
+1,Sunday,23,2.12,78,997.1,butter,FISH,'JOLLOF RICE ',?,' APPLE',tea,Heavy_Exercise,Dinner
+1,Wednesday,24,2.54,56,688.8,butter,'WHEAT, MEAT',?,OKRA,'WATER MELON',tea,Very_Heavy,Dinner
+1,Wednesday,28,2.98,45,512,butter,FISH,'POUNDED YAM',MELON,'WATER MELON',tea,Little_Or_No_Exercise,Dinner
+1,Friday,26,1.2,56,668.5,butter,'BEANS PORTAGE','RIPE PLANTAIN',MELON,'WATER MELON',tea,Ligth_Exercise,Dinner
+1,Monday,24,2.75,78,993.45,butter,?,FUFU,MELON,ORANGE,tea,Moderate_Exercise,Dinner
+1,Friday,17,2.09,34,430.55,butter,FISH,'JOLLOF RICE ',?,' APPLE',tea,Heavy_Exercise,Dinner
+1,Thursday,15,4.01,31,412.35,butter,'WHEAT, MEAT',?,OKRA,'WATER MELON',tea,Very_Heavy,Dinner
+1,Monday,80,3.21,56,311.35,butter,FISH,'POUNDED YAM',MELON,'WATER MELON',tea,Little_Or_No_Exercise,Dinner
+1,Friday,78,2.45,56,321.15,butter,'BEANS PORTAGE','RIPE PLANTAIN',?,?,tea,Ligth_Exercise,Dinner
+1,Monday,74,1.98,45,194.2,butter,egg,'jellof rice',?,?,tea,Moderate_Exercise,Dinner
+1,Friday,73,1.99,56,352.85,butter,MEAT,'WHITE RICE',?,?,tea,Heavy_Exercise,Dinner
+1,Saturday,64,2.14,78,718.4,butter,MEAT,EBA,VEGITABLE,?,tea,Very_Heavy,Dinner
+1,Monday,67,2.56,34,92.9,butter,egg,'jellof rice',?,ORANGE,tea,Little_Or_No_Exercise,Dinner
+1,Tuesday,68,1.95,31,41.65,butter,MEAT,'WHITE RICE',?,ORANGE,tea,Ligth_Exercise,Dinner
+1,Wednesday,32,1.98,98,1211.2,butter,MEAT,EBA,VEGITABLE,ORANGE,tea,Moderate_Exercise,Dinner
+0,Friday,25,2.56,65,1166.464,butter,FISH,AMALA,OKRA,ORANGE,tea,Heavy_Exercise,Dinner
+0,Monday,26,2.54,78,1286.526,butter,?,FUFU,MELON,ORANGE,tea,Very_Heavy,Dinner
+0,Tuesday,45,1.78,56,984.582,butter,FISH,'JOLLOF RICE ',?,' APPLE',tea,Little_Or_No_Exercise,Dinner
+0,Wednesday,12,1.87,45,1034.253,butter,'WHEAT, MEAT',?,OKRA,'WATER MELON',tea,Ligth_Exercise,Dinner
+0,Wednesday,10,1.56,32,918.264,butter,FISH,'POUNDED YAM',MELON,'WATER MELON',tea,Moderate_Exercise,Dinner
+0,Thursday,20,1.67,54,1082.673,butter,'BEANS PORTAGE','RIPE PLANTAIN',?,'WATER MELON',tea,Heavy_Exercise,Dinner
+0,Monday,30,1.95,47,969.005,butter,?,FUFU,MELON,ORANGE,tea,Very_Heavy,Dinner
+0,Tuesday,40,1.98,98,1411.662,butter,FISH,'JOLLOF RICE ',?,' APPLE',tea,Little_Or_No_Exercise,Dinner
+0,Monday,50,2.56,65,1048.964,butter,'WHEAT, MEAT',?,OKRA,'WATER MELON',tea,Ligth_Exercise,Dinner
+0,Friday,45,2.54,78,1197.226,butter,FISH,'POUNDED YAM',MELON,'WATER MELON',tea,Moderate_Exercise,Dinner
+0,Friday,60,1.78,56,914.082,butter,'BEANS PORTAGE','RIPE PLANTAIN',?,'WATER MELON',tea,Heavy_Exercise,Dinner
+0,Tuesday,70,1.87,45,761.653,butter,egg,'jellof rice',?,'WATER MELON',tea,Very_Heavy,Dinner
+0,Thursday,70,1.56,32,636.264,butter,MEAT,'WHITE RICE',?,'WATER MELON',tea,Little_Or_No_Exercise,Dinner
+1,Monday,13,1.67,33,441.85,butter,MEAT,EBA,VEGITABLE,'WATER MELON',tea,Ligth_Exercise,Dinner
+1,Tuesday,2,0.78,10,194.8,butter,FISH,AMALA,OKRA,'WATER MELON',tea,Moderate_Exercise,Dinner
+1,Monday,4,1,13,223.7,butter,MEAT,'WHITE RICE',?,'WATER MELON',tea,Heavy_Exercise,Dinner
+1,Friday,6,0.99,21,320.45,butter,MEAT,EBA,VEGITABLE,'WATER MELON',tea,Very_Heavy,Dinner
+1,Tuesday,16,1.01,24,293.95,butter,FISH,AMALA,OKRA,'WATER MELON',tea,Little_Or_No_Exercise,Dinner
+1,Monday,2,0.54,14,248.8,butter,?,FUFU,MELON,ORANGE,tea,Ligth_Exercise,Dinner
+1,Thursday,7,0.99,27,396.45,butter,FISH,'JOLLOF RICE ',?,' APPLE',tea,Moderate_Exercise,Dinner
+1,Monday,8,0.95,25,361.85,butter,'WHEAT, MEAT',?,OKRA,'WATER MELON',tea,Heavy_Exercise,Dinner
+1,Wednesday,9,0.75,30,423.05,butter,FISH,'POUNDED YAM',MELON,'WATER MELON',tea,Very_Heavy,Dinner
+1,Thursday,4,0.45,16,262.35,butter,'BEANS PORTAGE','RIPE PLANTAIN',?,'WATER MELON',tea,Little_Or_No_Exercise,Dinner
+1,Monday,6,0.16,20,302.5,butter,?,FUFU,MELON,ORANGE,tea,Ligth_Exercise,Dinner
+1,Friday,8,0.78,31,443.8,butter,FISH,'JOLLOF RICE ',MELON,' APPLE',tea,Moderate_Exercise,Dinner
+1,Saturday,62,4.01,56,437.75,butter,'WHEAT, MEAT',?,OKRA,'WATER MELON',tea,Heavy_Exercise,Dinner
+1,Wednesday,75,3.76,45,196.3,butter,FISH,'POUNDED YAM',MELON,'WATER MELON',tea,Very_Heavy,Dinner
+1,Monday,46,3.45,56,543.75,butter,FISH,'JOLLOF RICE ',?,' APPLE',tea,Little_Or_No_Exercise,Dinner
+1,Wednesday,34,2.47,78,924.05,butter,'WHEAT, MEAT',?,OKRA,'WATER MELON',tea,Ligth_Exercise,Dinner
+1,Monday,46,1.98,34,232.8,butter,MEAT,'WHITE RICE',?,'WATER MELON',tea,Moderate_Exercise,Dinner
+1,Tuesday,48,2.56,31,180.7,butter,MEAT,EBA,VEGITABLE,'WATER MELON',tea,Heavy_Exercise,Dinner
+1,Thursday,49,1.56,98,1093.5,butter,FISH,AMALA,OKRA,'WATER MELON',tea,Very_Heavy,Dinner
+1,Monday,53,1.67,65,611.45,butter,egg,'jellof rice',?,'WATER MELON',tea,Little_Or_No_Exercise,Dinner
+1,Friday,56,1.95,78,771.85,butter,MEAT,'WHITE RICE',?,'WATER MELON',tea,Ligth_Exercise,Dinner
+1,Sunday,54,1.98,56,482,butter,MEAT,EBA,VEGITABLE,'WATER MELON',tea,Moderate_Exercise,Dinner
+1,Sunday,68,2.56,45,237.9,butter,egg,'jellof rice',?,ORANGE,tea,Heavy_Exercise,Dinner
+0,Saturday,58,2.54,67,1030.526,butter,MEAT,'WHITE RICE',?,ORANGE,tea,Very_Heavy,Dinner
+0,Friday,34,2.54,56,1037.726,butter,MEAT,EBA,VEGITABLE,ORANGE,tea,Little_Or_No_Exercise,Dinner
+0,Monday,16,1.78,40,967.282,butter,FISH,AMALA,OKRA,ORANGE,tea,Ligth_Exercise,Dinner
+0,Friday,48,1.87,54,951.453,butter,?,FUFU,MELON,ORANGE,tea,Moderate_Exercise,Dinner
+0,Saturday,15,1.56,34,913.964,butter,FISH,'JOLLOF RICE ',?,' APPLE',tea,Heavy_Exercise,Dinner
+0,Monday,48,1.67,56,970.273,butter,'WHEAT, MEAT',?,OKRA,'WATER MELON',tea,Very_Heavy,Dinner
+0,Tuesday,18,1.95,45,1006.205,butter,FISH,'POUNDED YAM',MELON,'WATER MELON',tea,Little_Or_No_Exercise,Dinner
+0,Thursday,10,1.98,28,880.662,butter,'BEANS PORTAGE','RIPE PLANTAIN',?,'WATER MELON',tea,Ligth_Exercise,Dinner
+0,Wednesday,11,2.56,26,857.864,butter,?,FUFU,MELON,ORANGE,tea,Moderate_Exercise,Dinner
+0,Sunday,45,2.54,40,832.426,butter,FISH,'JOLLOF RICE ',?,' APPLE',tea,Heavy_Exercise,Dinner
+0,Monday,58,1.78,54,904.282,butter,'WHEAT, MEAT',?,OKRA,'WATER MELON',tea,Very_Heavy,Dinner
+0,Friday,26,1.87,65,1160.453,butter,FISH,'POUNDED YAM',MELON,'WATER MELON',tea,Little_Or_No_Exercise,Dinner
+0,Thursday,28,1.56,75,1246.464,butter,'BEANS PORTAGE','RIPE PLANTAIN',?,'WATER MELON',tea,Ligth_Exercise,Dinner
+0,Monday,29,1.67,59,1088.373,butter,'WHEAT, MEAT',?,OKRA,'WATER MELON',tea,Moderate_Exercise,Dinner
+1,Friday,10,1.95,28,394.65,butter,FISH,'POUNDED YAM',MELON,'WATER MELON',tea,Heavy_Exercise,Dinner
+1,Thursday,11,1.98,31,429.4,butter,'BEANS PORTAGE','RIPE PLANTAIN',?,'WATER MELON',tea,Very_Heavy,Dinner
+1,Friday,15,1.87,40,525.85,butter,?,FUFU,MELON,ORANGE,tea,Little_Or_No_Exercise,Dinner
+1,Wednesday,18,1.66,54,697.6,butter,FISH,'JOLLOF RICE ',?,' APPLE',tea,Ligth_Exercise,Dinner
+1,Friday,29,1.98,65,776.2,butter,'WHEAT, MEAT',?,OKRA,'WATER MELON',tea,Moderate_Exercise,Dinner
+1,Thursday,33,1.78,67,775.6,butter,FISH,'POUNDED YAM',MELON,'WATER MELON',tea,Heavy_Exercise,Dinner
+1,Monday,47,1.87,75,791.25,butter,'BEANS PORTAGE','RIPE PLANTAIN',?,'WATER MELON',tea,Very_Heavy,Dinner
+1,Friday,53,1.56,59,528.1,butter,egg,'jellof rice',?,'WATER MELON',tea,Little_Or_No_Exercise,Dinner
+1,Saturday,28,1.67,28,270.85,butter,MEAT,'WHITE RICE',?,'WATER MELON',tea,Ligth_Exercise,Dinner
+1,Sunday,19,1.95,31,374.85,butter,MEAT,EBA,VEGITABLE,'WATER MELON',tea,Moderate_Exercise,Dinner
+1,Saturday,20,1.98,40,492.4,butter,FISH,AMALA,OKRA,'WATER MELON',tea,Heavy_Exercise,Dinner
+1,Monday,56,2.56,54,443.7,butter,?,FUFU,MELON,ORANGE,tea,Very_Heavy,Dinner
+1,Friday,12,1.66,31,421,butter,FISH,'JOLLOF RICE ',?,' APPLE',tea,Little_Or_No_Exercise,Dinner
+1,Sunday,35,1.98,59,652.6,butter,FISH,'JOLLOF RICE ',?,' APPLE',tea,Ligth_Exercise,Dinner
+1,Sunday,43,1.78,64,666.2,butter,'WHEAT, MEAT',?,?,'WATER MELON',tea,Moderate_Exercise,Dinner
+1,Saturday,2,0.2,9,178.1,butter,MEAT,'WHITE RICE',?,'WATER MELON',tea,Heavy_Exercise,Dinner
+1,Friday,3,0.56,9,173.1,butter,FISH,'YAM PORTAGE ',?,'WATER MELON',tea,Very_Heavy,Dinner
+1,Monday,4,0.63,10,180.45,butter,FISH,'POUNDED YAM',MELON,'WATER MELON',tea,Little_Or_No_Exercise,Dinner
+1,Friday,18,1.87,35,436.45,butter,'BEANS PORTAGE','RIPE PLANTAIN',?,'WATER MELON',tea,Ligth_Exercise,Dinner
+0,Saturday,16,1.56,33,899.664,butter,egg,'jellof rice',?,'WATER MELON',tea,Moderate_Exercise,Dinner
+0,Monday,17,1.67,35,914.373,butter,MEAT,'WHITE RICE',?,'WATER MELON',tea,Heavy_Exercise,Dinner
+0,Tuesday,19,1.95,58,1126.305,butter,MEAT,EBA,VEGITABLE,'WATER MELON',tea,Very_Heavy,Dinner
+0,Thursday,15,1.98,32,895.562,butter,FISH,AMALA,OKRA,'WATER MELON',tea,Little_Or_No_Exercise,Dinner
+0,Wednesday,19,2.56,40,954.664,butter,?,FUFU,MELON,ORANGE,tea,Ligth_Exercise,Dinner
+0,Sunday,15,1.66,37,942.954,butter,FISH,'JOLLOF RICE ',?,' APPLE',tea,Moderate_Exercise,Dinner
+0,Monday,61,2.09,69,1034.771,butter,FISH,'JOLLOF RICE ',?,' APPLE',tea,Heavy_Exercise,Dinner
+0,Friday,19,1.56,46,1010.364,butter,'WHEAT, MEAT',?,OKRA,'WATER MELON',tea,Very_Heavy,Dinner
+0,Thursday,20,1.67,69,1226.673,butter,MEAT,'WHITE RICE',?,'WATER MELON',tea,Little_Or_No_Exercise,Dinner
+0,Monday,32,1.95,66,1142.005,butter,MEAT,EBA,VEGITABLE,'WATER MELON',tea,Ligth_Exercise,Dinner
+0,Friday,71,1.98,54,843.562,butter,FISH,AMALA,OKRA,'WATER MELON',tea,Moderate_Exercise,Dinner
+0,Saturday,44,2.56,101,1422.764,butter,?,FUFU,MELON,ORANGE,tea,Heavy_Exercise,Dinner
+0,Monday,84,1.66,59,829.854,butter,FISH,'JOLLOF RICE ',?,' APPLE',tea,Very_Heavy,Dinner
+0,Friday,26,2.09,34,863.271,butter,FISH,'JOLLOF RICE ',?,' APPLE',tea,Little_Or_No_Exercise,Dinner
+0,Sunday,30,2.56,31,816.564,butter,'WHEAT, MEAT',?,OKRA,'WATER MELON',tea,Ligth_Exercise,Dinner
+0,Sunday,55,2.54,40,785.426,butter,MEAT,'WHITE RICE',?,'WATER MELON',tea,Moderate_Exercise,Dinner
+0,Saturday,56,1.78,54,913.682,butter,FISH,'YAM PORTAGE ',?,'WATER MELON',tea,Heavy_Exercise,Dinner
+0,Friday,67,1.87,69,1006.153,butter,FISH,'POUNDED YAM',MELON,'WATER MELON',tea,Very_Heavy,Dinner
+0,Monday,58,1.56,66,1019.064,butter,'BEANS PORTAGE','RIPE PLANTAIN',?,'WATER MELON',tea,Little_Or_No_Exercise,Dinner
+0,Friday,59,1.67,54,899.373,butter,egg,'jellof rice',?,'WATER MELON',tea,Ligth_Exercise,Dinner
+0,Saturday,60,1.95,65,1000.805,butter,MEAT,'WHITE RICE',?,'WATER MELON',tea,Moderate_Exercise,Dinner
+0,Monday,66,1.98,59,915.062,butter,MEAT,EBA,VEGITABLE,'WATER MELON',tea,Heavy_Exercise,Dinner
+0,Tuesday,53,1.87,34,735.953,butter,FISH,AMALA,OKRA,'WATER MELON',tea,Very_Heavy,Dinner
+1,Thursday,61,1.66,31,87.8,butter,egg,'jellof rice',?,'WATER MELON',tea,Little_Or_No_Exercise,Dinner
+1,Wednesday,68,1.98,40,166,butter,MEAT,'WHITE RICE',?,'WATER MELON',tea,Ligth_Exercise,Dinner
+1,Sunday,69,1.78,54,351.4,butter,MEAT,EBA,VEGITABLE,'WATER MELON',tea,Moderate_Exercise,Dinner
+1,Monday,56,1.87,75,730.05,butter,FISH,AMALA,OKRA,'WATER MELON',tea,Heavy_Exercise,Dinner
+1,Friday,43,1.56,59,596.1,butter,?,FUFU,MELON,ORANGE,tea,Very_Heavy,Dinner
+1,Thursday,44,1.67,28,162.05,butter,FISH,'JOLLOF RICE ',?,' APPLE',tea,Little_Or_No_Exercise,Dinner
+1,Monday,45,3.45,31,205.55,butter,FISH,'JOLLOF RICE ',?,' APPLE',tea,Ligth_Exercise,Dinner
+1,Friday,47,2.47,40,311.25,butter,'WHEAT, MEAT',?,OKRA,'WATER MELON',tea,Moderate_Exercise,Dinner
+1,Friday,48,1.98,54,495.2,butter,MEAT,'WHITE RICE',?,'WATER MELON',tea,Heavy_Exercise,Dinner
+1,Monday,50,2.56,65,636.3,butter,FISH,'YAM PORTAGE ',?,'WATER MELON',tea,Very_Heavy,Dinner
+1,Saturday,52,1.56,67,645.3,butter,FISH,'POUNDED YAM',MELON,'WATER MELON',tea,Little_Or_No_Exercise,Dinner
+1,Monday,33,1.67,75,885.45,butter,'BEANS PORTAGE','RIPE PLANTAIN',?,'WATER MELON',tea,Ligth_Exercise,Dinner
+1,Friday,34,1.95,59,659.25,butter,egg,'jellof rice',?,'WATER MELON',tea,Moderate_Exercise,Dinner
+1,Sunday,37,1.98,28,211.2,butter,MEAT,'WHITE RICE',?,'WATER MELON',tea,Heavy_Exercise,Dinner
+1,Sunday,38,2.56,31,248.7,butter,MEAT,EBA,VEGITABLE,'WATER MELON',tea,Very_Heavy,Dinner
+1,Saturday,39,2.54,40,366,butter,FISH,AMALA,OKRA,'WATER MELON',tea,Little_Or_No_Exercise,Dinner
+1,Friday,33,2.54,31,282.6,butter,?,FUFU,MELON,ORANGE,tea,Ligth_Exercise,Dinner
+1,Monday,31,1.78,40,416.6,butter,FISH,'JOLLOF RICE ',?,' APPLE',tea,Moderate_Exercise,Dinner
+1,Friday,20,1.87,54,685.05,butter,FISH,'JOLLOF RICE ',?,' APPLE',tea,Heavy_Exercise,Dinner
+1,Saturday,30,1.56,65,767.3,butter,'WHEAT, MEAT',?,OKRA,'WATER MELON',tea,Very_Heavy,Dinner
+0,Monday,27,1.67,67,1174.573,butter,FISH,'JOLLOF RICE ',?,' APPLE',tea,Little_Or_No_Exercise,Dinner
+0,Tuesday,28,1.95,75,1247.205,butter,FISH,'JOLLOF RICE ',?,' APPLE',tea,Ligth_Exercise,Dinner
+0,Thursday,29,2.54,59,1090.026,butter,'WHEAT, MEAT',?,OKRA,'WATER MELON',tea,Moderate_Exercise,Dinner
+0,Wednesday,27,1.78,28,800.382,butter,MEAT,'WHITE RICE',?,'WATER MELON',tea,Heavy_Exercise,Dinner
+0,Sunday,26,1.87,67,1179.653,butter,FISH,'YAM PORTAGE ',?,'WATER MELON',tea,Very_Heavy,Dinner
+0,Monday,25,1.56,75,1260.564,butter,FISH,'JOLLOF RICE ',?,' APPLE',tea,Little_Or_No_Exercise,Dinner
+0,Friday,24,1.67,59,1111.873,butter,'WHEAT, MEAT',?,?,'WATER MELON',tea,Ligth_Exercise,Dinner
+0,Monday,23,1.95,28,819.505,butter,FISH,'JOLLOF RICE ',?,' APPLE',tea,Moderate_Exercise,Dinner
+0,Friday,22,1.98,40,939.462,butter,FISH,'JOLLOF RICE ',?,' APPLE',tea,Heavy_Exercise,Dinner
+0,Sunday,21,1.87,54,1078.353,butter,'WHEAT, MEAT',?,OKRA,'WATER MELON',tea,Very_Heavy,Dinner
+0,Sunday,8,0.67,32,925.973,butter,MEAT,'WHITE RICE',?,'WATER MELON',tea,Little_Or_No_Exercise,Dinner
+0,Saturday,88,1.98,67,888.462,butter,FISH,'YAM PORTAGE ',?,'WATER MELON',tea,Ligth_Exercise,Dinner
+0,Friday,86,1.78,55,782.282,butter,FISH,'POUNDED YAM',MELON,'WATER MELON',tea,Moderate_Exercise,Dinner
+0,Monday,12,1.87,35,938.253,butter,'BEANS PORTAGE','RIPE PLANTAIN',?,'WATER MELON',tea,Heavy_Exercise,Dinner
+0,Friday,45,2.56,99,1398.864,butter,egg,'jellof rice',?,'WATER MELON',tea,Very_Heavy,Dinner
+0,Saturday,21,1.87,24,790.353,butter,MEAT,'WHITE RICE',?,'WATER MELON',tea,Little_Or_No_Exercise,Dinner
+0,Monday,10,1.56,23,831.864,butter,MEAT,EBA,VEGITABLE,'WATER MELON',tea,Ligth_Exercise,Dinner
+0,Tuesday,9,1.01,27,873.919,butter,FISH,AMALA,OKRA,'WATER MELON',tea,Moderate_Exercise,Dinner
+0,Thursday,5,0.67,19,815.273,butter,?,FUFU,MELON,ORANGE,tea,Heavy_Exercise,Dinner
+1,Wednesday,4,0.54,15,249,butter,FISH,'JOLLOF RICE ',?,' APPLE',tea,Very_Heavy,Dinner
+1,Sunday,17,1.78,28,346.2,butter,'WHEAT, MEAT',?,OKRA,'WATER MELON',tea,Little_Or_No_Exercise,Dinner
+1,Monday,9,0.93,21,299.75,butter,MEAT,'WHITE RICE',?,'WATER MELON',tea,Ligth_Exercise,Dinner
+1,Friday,15,1.02,30,383.6,butter,FISH,'YAM PORTAGE ',?,'WATER MELON',tea,Moderate_Exercise,Dinner
+1,Sunday,1,0.67,6,145.85,butter,egg,'jellof rice',?,ORANGE,?,Heavy_Exercise,Launch
+1,Monday,3,0.77,13,229.35,butter,MEAT,'WHITE RICE',?,?,?,Little_Or_No_Exercise,Launch
+1,Saturday,1,0.56,7,159.1,butter,MEAT,EBA,VEGITABLE,?,?,Ligth_Exercise,Launch
+1,Saturday,2,0.66,9,180.4,butter,FISH,AMALA,OKRA,?,?,Moderate_Exercise,Launch
+1,Monday,13,1,20,259.1,butter,?,FUFU,MELON,ORANGE,?,Heavy_Exercise,Launch
+1,Tuesday,3,0.45,13,227.75,butter,FISH,'JOLLOF RICE ',?,' APPLE',?,Very_Heavy,Launch
+0,Thursday,27,1.98,30,822.362,butter,'WHEAT, MEAT',?,OKRA,'WATER MELON',?,Ligth_Exercise,Launch
+0,Friday,5,0.88,18,807.512,butter,FISH,'POUNDED YAM',MELON,'WATER MELON',?,Little_Or_No_Exercise,Launch
+0,Monday,8,0.9,22,832.17,butter,'BEANS PORTAGE','RIPE PLANTAIN',?,?,?,Ligth_Exercise,Launch
+0,Saturday,9,0.89,22,827.451,butter,?,FUFU,MELON,ORANGE,?,Moderate_Exercise,Launch
+0,Sunday,10,0.67,24,841.693,butter,FISH,'JOLLOF RICE ',?,' APPLE',?,Heavy_Exercise,Launch
+0,Monday,16,1.1,23,804.63,butter,'WHEAT, MEAT',?,OKRA,'WATER MELON',?,Very_Heavy,Launch
+0,Saturday,26,1.95,70,1214.205,butter,FISH,'POUNDED YAM',MELON,'WATER MELON',?,Ligth_Exercise,Launch
+0,Saturday,2,0.67,9,734.093,butter,'BEANS PORTAGE','RIPE PLANTAIN',?,?,?,Little_Or_No_Exercise,Launch
+1,Monday,31,2.56,65,765.5,butter,egg,'jellof rice',?,?,?,Ligth_Exercise,Launch
+1,Tuesday,37,2.54,78,904,butter,MEAT,'WHITE RICE',?,?,?,Moderate_Exercise,Launch
+1,Thursday,20,1.78,56,712.2,butter,MEAT,EBA,VEGITABLE,?,?,Heavy_Exercise,Launch
+1,Friday,26,1.87,45,520.05,butter,FISH,AMALA,OKRA,?,?,Very_Heavy,Launch
+1,Monday,75,2.57,56,342.15,butter,?,FUFU,MELON,ORANGE,?,Ligth_Exercise,Launch
+1,Saturday,70,1.67,78,675.25,butter,FISH,'JOLLOF RICE ',?,' APPLE',?,Little_Or_No_Exercise,Launch
+1,Sunday,5,0.88,17,271.5,butter,FISH,'JOLLOF RICE ',?,' APPLE',?,Ligth_Exercise,Launch
+1,Wednesday,6,0.65,20,304.95,butter,'WHEAT, MEAT',?,OKRA,'WATER MELON',?,Moderate_Exercise,Launch
+1,Wednesday,9,1,23,327.7,butter,FISH,'POUNDED YAM',MELON,'WATER MELON',?,Heavy_Exercise,Launch
+1,Friday,11,1.12,21,287.1,butter,'BEANS PORTAGE','RIPE PLANTAIN',?,?,?,Very_Heavy,Launch
+1,Monday,12,1.23,29,391.25,butter,egg,'jellof rice',?,?,?,Ligth_Exercise,Launch
+1,Friday,16,1.45,34,434.15,butter,MEAT,'WHITE RICE',?,?,?,Little_Or_No_Exercise,Launch
+1,Thursday,18,1.67,31,380.25,butter,MEAT,EBA,VEGITABLE,?,?,Ligth_Exercise,Launch
+0,Monday,19,1.5,39,943.05,butter,FISH,AMALA,OKRA,?,?,Moderate_Exercise,Launch
+0,Friday,3,0.66,13,767.054,butter,egg,'jellof rice',?,?,?,Heavy_Exercise,Launch
+0,Sunday,16,1.12,15,726.028,butter,MEAT,'WHITE RICE',?,?,?,Very_Heavy,Launch
+0,Monday,37,2.56,79,1244.464,butter,MEAT,EBA,VEGITABLE,?,?,Ligth_Exercise,Launch
+0,Saturday,45,3,89,1303.7,butter,FISH,AMALA,OKRA,?,?,Little_Or_No_Exercise,Launch
+0,Saturday,78,2.34,67,936.146,butter,?,FUFU,MELON,ORANGE,?,Ligth_Exercise,Launch
+0,Monday,80,3.21,69,947.599,butter,FISH,'JOLLOF RICE ',?,' APPLE',?,Moderate_Exercise,Launch
+0,Tuesday,8,0.98,27,878.562,butter,FISH,'JOLLOF RICE ',?,' APPLE',?,Heavy_Exercise,Launch
+0,Thursday,5,0.45,16,786.055,butter,'WHEAT, MEAT',?,OKRA,'WATER MELON',?,Very_Heavy,Launch
+0,Friday,6,0.56,22,839.164,butter,MEAT,'WHITE RICE',?,?,?,Ligth_Exercise,Launch
+0,Monday,73,2.54,65,940.826,butter,MEAT,EBA,VEGITABLE,?,?,Little_Or_No_Exercise,Launch
+0,Saturday,56,2.98,54,915.962,butter,FISH,AMALA,OKRA,?,?,Ligth_Exercise,Launch
+0,Sunday,17,1.2,34,903.88,butter,egg,'jellof rice',?,?,?,Moderate_Exercise,Launch
+0,Monday,36,2.75,67,1134.325,butter,MEAT,'WHITE RICE',?,?,?,Heavy_Exercise,Launch
+0,Saturday,45,2.09,75,1167.571,butter,MEAT,EBA,VEGITABLE,?,?,Very_Heavy,Launch
+0,Saturday,62,4.01,66,1004.919,butter,FISH,AMALA,OKRA,?,?,Ligth_Exercise,Launch
+0,Monday,45,3.21,86,1275.299,butter,?,FUFU,MELON,ORANGE,?,Little_Or_No_Exercise,Launch
+0,Tuesday,62,2.45,87,1203.555,butter,FISH,'JOLLOF RICE ',?,' APPLE',?,Ligth_Exercise,Launch
+0,Thursday,20,1.98,60,1140.862,butter,FISH,'JOLLOF RICE ',?,' APPLE',?,Moderate_Exercise,Launch
+1,Friday,27,1.99,54,638.05,butter,'WHEAT, MEAT',?,OKRA,'WATER MELON',?,Heavy_Exercise,Launch
+1,Monday,69,2.14,67,532.6,butter,MEAT,'WHITE RICE',?,?,?,Very_Heavy,Launch
+1,Saturday,21,1.78,65,829.6,butter,MEAT,EBA,VEGITABLE,?,?,Ligth_Exercise,Launch
+1,Sunday,23,2.12,78,997.1,butter,FISH,AMALA,OKRA,?,?,Little_Or_No_Exercise,Launch
+1,Wednesday,24,2.54,56,688.8,butter,egg,'jellof rice',?,?,?,Ligth_Exercise,Launch
+1,Wednesday,28,2.98,45,512,butter,MEAT,'WHITE RICE',?,?,?,Moderate_Exercise,Launch
+1,Friday,26,1.2,56,668.5,butter,MEAT,EBA,VEGITABLE,?,?,Heavy_Exercise,Launch
+1,Monday,24,2.75,78,993.45,butter,egg,'jellof rice',?,ORANGE,?,Very_Heavy,Launch
+1,Friday,17,2.09,34,430.55,butter,MEAT,'WHITE RICE',?,?,?,Ligth_Exercise,Launch
+1,Thursday,15,4.01,31,412.35,butter,MEAT,EBA,VEGITABLE,?,?,Little_Or_No_Exercise,Launch
+1,Monday,80,3.21,56,311.35,butter,FISH,AMALA,OKRA,?,?,Ligth_Exercise,Launch
+1,Friday,78,2.45,56,321.15,butter,?,FUFU,MELON,ORANGE,?,Moderate_Exercise,Launch
+1,Monday,74,1.98,45,194.2,butter,FISH,'JOLLOF RICE ',?,' APPLE',?,Heavy_Exercise,Launch
+1,Friday,73,1.99,56,352.85,butter,'WHEAT, MEAT',?,OKRA,'WATER MELON',?,Very_Heavy,Launch
+1,Saturday,64,2.14,78,718.4,butter,FISH,'POUNDED YAM',MELON,'WATER MELON',?,Ligth_Exercise,Launch
+1,Monday,67,2.56,34,92.9,butter,'BEANS PORTAGE','RIPE PLANTAIN',?,?,?,Little_Or_No_Exercise,Launch
+1,Tuesday,68,1.95,31,41.65,butter,?,FUFU,MELON,ORANGE,?,Ligth_Exercise,Launch
+1,Wednesday,32,1.98,98,1211.2,butter,FISH,'JOLLOF RICE ',?,' APPLE',?,Moderate_Exercise,Launch
+0,Friday,25,2.56,65,1166.464,butter,'WHEAT, MEAT',?,OKRA,'WATER MELON',?,Heavy_Exercise,Launch
+0,Monday,26,2.54,78,1286.526,butter,FISH,'POUNDED YAM',MELON,'WATER MELON',?,Very_Heavy,Launch
+0,Tuesday,45,1.78,56,984.582,butter,'BEANS PORTAGE','RIPE PLANTAIN',?,?,?,Ligth_Exercise,Launch
+0,Wednesday,12,1.87,45,1034.253,butter,FISH,AMALA,OKRA,?,?,Little_Or_No_Exercise,Launch
+0,Wednesday,10,1.56,32,918.264,butter,egg,'jellof rice',?,?,?,Ligth_Exercise,Launch
+0,Thursday,20,1.67,54,1082.673,butter,MEAT,'WHITE RICE',?,?,?,Moderate_Exercise,Launch
+0,Monday,30,1.95,47,969.005,butter,MEAT,EBA,VEGITABLE,?,?,Heavy_Exercise,Launch
+0,Tuesday,40,1.98,98,1411.662,butter,egg,'jellof rice',?,ORANGE,?,Very_Heavy,Launch
+0,Monday,50,2.56,65,1048.964,butter,MEAT,'WHITE RICE',?,?,?,Ligth_Exercise,Launch
+0,Friday,45,2.54,78,1197.226,butter,MEAT,EBA,VEGITABLE,?,?,Little_Or_No_Exercise,Launch
+0,Friday,60,1.78,56,914.082,butter,FISH,AMALA,OKRA,?,?,Ligth_Exercise,Launch
+0,Tuesday,70,1.87,45,761.653,butter,?,FUFU,MELON,ORANGE,?,Moderate_Exercise,Launch
+0,Thursday,70,1.56,32,636.264,butter,FISH,'JOLLOF RICE ',?,' APPLE',?,Heavy_Exercise,Launch
+1,Monday,13,1.67,33,441.85,butter,'WHEAT, MEAT',?,OKRA,'WATER MELON',?,Very_Heavy,Launch
+1,Tuesday,2,0.78,10,194.8,butter,FISH,'POUNDED YAM',MELON,'WATER MELON',?,Ligth_Exercise,Launch
+1,Monday,4,1,13,223.7,butter,'BEANS PORTAGE','RIPE PLANTAIN',?,?,?,Little_Or_No_Exercise,Launch
+1,Friday,6,0.99,21,320.45,butter,?,FUFU,MELON,ORANGE,?,Ligth_Exercise,Launch
+1,Tuesday,16,1.01,24,293.95,butter,FISH,'JOLLOF RICE ',?,' APPLE',?,Moderate_Exercise,Launch
+1,Monday,2,0.54,14,248.8,butter,'WHEAT, MEAT',?,OKRA,'WATER MELON',?,Heavy_Exercise,Launch
+1,Thursday,7,0.99,27,396.45,butter,FISH,'POUNDED YAM',MELON,'WATER MELON',?,Very_Heavy,Launch
+1,Monday,8,0.95,25,361.85,butter,'BEANS PORTAGE','RIPE PLANTAIN',?,?,?,Ligth_Exercise,Launch
+1,Wednesday,9,0.75,30,423.05,butter,egg,'jellof rice',?,?,?,Little_Or_No_Exercise,Launch
+1,Thursday,4,0.45,16,262.35,butter,MEAT,'WHITE RICE',?,?,?,Ligth_Exercise,Launch
+1,Monday,6,0.16,20,302.5,butter,MEAT,EBA,VEGITABLE,?,?,Moderate_Exercise,Launch
+1,Friday,8,0.78,31,443.8,butter,FISH,AMALA,OKRA,?,?,Heavy_Exercise,Launch
+1,Saturday,62,4.01,56,437.75,butter,?,FUFU,MELON,ORANGE,?,Very_Heavy,Launch
+1,Wednesday,75,3.76,45,196.3,butter,FISH,'JOLLOF RICE ',?,' APPLE',?,Ligth_Exercise,Launch
+1,Monday,46,3.45,56,543.75,butter,FISH,'JOLLOF RICE ',?,' APPLE',?,Little_Or_No_Exercise,Launch
+1,Wednesday,34,2.47,78,924.05,butter,'WHEAT, MEAT',?,OKRA,'WATER MELON',?,Ligth_Exercise,Launch
+1,Monday,46,1.98,34,232.8,butter,MEAT,'WHITE RICE',?,?,?,Moderate_Exercise,Launch
+1,Tuesday,48,2.56,31,180.7,butter,MEAT,EBA,VEGITABLE,?,?,Heavy_Exercise,Launch
+1,Thursday,49,1.56,98,1093.5,butter,FISH,AMALA,OKRA,?,?,Very_Heavy,Launch
+1,Monday,53,1.67,65,611.45,butter,egg,'jellof rice',?,?,?,Ligth_Exercise,Launch
+1,Friday,56,1.95,78,771.85,butter,MEAT,'WHITE RICE',?,?,?,Little_Or_No_Exercise,Launch
+1,Sunday,54,1.98,56,482,butter,MEAT,EBA,VEGITABLE,?,?,Ligth_Exercise,Launch
+1,Sunday,68,2.56,45,237.9,butter,egg,'jellof rice',?,ORANGE,?,Moderate_Exercise,Launch
+0,Saturday,58,2.54,67,1030.526,butter,MEAT,'WHITE RICE',?,?,?,Heavy_Exercise,Launch
+0,Friday,34,2.54,56,1037.726,butter,MEAT,EBA,VEGITABLE,?,?,Very_Heavy,Launch
+0,Monday,16,1.78,40,967.282,butter,FISH,AMALA,OKRA,?,?,Ligth_Exercise,Launch
+0,Friday,48,1.87,54,951.453,butter,?,FUFU,MELON,ORANGE,?,Little_Or_No_Exercise,Launch
+0,Saturday,15,1.56,34,913.964,butter,FISH,'JOLLOF RICE ',?,' APPLE',?,Ligth_Exercise,Launch
+0,Monday,48,1.67,56,970.273,butter,'WHEAT, MEAT',?,OKRA,'WATER MELON',?,Moderate_Exercise,Launch
+0,Tuesday,18,1.95,45,1006.205,butter,FISH,'POUNDED YAM',MELON,'WATER MELON',?,Heavy_Exercise,Launch
+0,Thursday,10,1.98,28,880.662,butter,'BEANS PORTAGE','RIPE PLANTAIN',?,?,?,Very_Heavy,Launch
+0,Wednesday,11,2.56,26,857.864,butter,?,FUFU,MELON,ORANGE,?,Ligth_Exercise,Launch
+0,Sunday,45,2.54,40,832.426,butter,FISH,'JOLLOF RICE ',?,' APPLE',?,Little_Or_No_Exercise,Launch
+0,Monday,58,1.78,54,904.282,butter,'WHEAT, MEAT',?,OKRA,'WATER MELON',?,Ligth_Exercise,Launch
+0,Friday,26,1.87,65,1160.453,butter,FISH,'POUNDED YAM',MELON,'WATER MELON',?,Moderate_Exercise,Launch
+0,Thursday,28,1.56,75,1246.464,butter,'BEANS PORTAGE','RIPE PLANTAIN',?,?,?,Heavy_Exercise,Launch
+0,Monday,29,1.67,59,1088.373,butter,'WHEAT, MEAT',?,OKRA,'WATER MELON',?,Very_Heavy,Launch
+1,Friday,10,1.95,28,394.65,butter,FISH,'POUNDED YAM',MELON,'WATER MELON',?,Ligth_Exercise,Launch
+1,Thursday,11,1.98,31,429.4,butter,'BEANS PORTAGE','RIPE PLANTAIN',?,?,?,Little_Or_No_Exercise,Launch
+1,Friday,15,1.87,40,525.85,butter,?,FUFU,MELON,ORANGE,?,Ligth_Exercise,Launch
+1,Wednesday,18,1.66,54,697.6,butter,FISH,'JOLLOF RICE ',?,' APPLE',?,Moderate_Exercise,Launch
+1,Friday,29,1.98,65,776.2,butter,'WHEAT, MEAT',?,OKRA,'WATER MELON',?,Heavy_Exercise,Launch
+1,Thursday,33,1.78,67,775.6,butter,FISH,'POUNDED YAM',MELON,'WATER MELON',?,Very_Heavy,Launch
+1,Monday,47,1.87,75,791.25,butter,'BEANS PORTAGE','RIPE PLANTAIN',?,?,?,Ligth_Exercise,Launch
+1,Friday,53,1.56,59,528.1,butter,egg,'jellof rice',?,?,?,Little_Or_No_Exercise,Launch
+1,Saturday,28,1.67,28,270.85,butter,MEAT,'WHITE RICE',?,?,?,Ligth_Exercise,Launch
+1,Sunday,19,1.95,31,374.85,butter,MEAT,EBA,VEGITABLE,?,?,Moderate_Exercise,Launch
+1,Saturday,20,1.98,40,492.4,butter,FISH,AMALA,OKRA,?,?,Heavy_Exercise,Launch
+1,Monday,56,2.56,54,443.7,butter,?,FUFU,MELON,ORANGE,?,Very_Heavy,Launch
+1,Friday,12,1.66,31,421,butter,FISH,'JOLLOF RICE ',?,' APPLE',?,Ligth_Exercise,Launch
+1,Sunday,35,1.98,59,652.6,butter,FISH,'JOLLOF RICE ',?,' APPLE',?,Little_Or_No_Exercise,Launch
+1,Sunday,43,1.78,64,666.2,butter,'WHEAT, MEAT',?,OKRA,'WATER MELON',?,Ligth_Exercise,Launch
+1,Saturday,2,0.2,9,178.1,butter,MEAT,'WHITE RICE',?,?,?,Moderate_Exercise,Launch
+1,Friday,3,0.56,9,173.1,butter,MILK,'GARRI + GRANDNUT',?,?,?,Heavy_Exercise,Launch
+1,Monday,4,0.63,10,180.45,butter,FISH,'POUNDED YAM',MELON,'WATER MELON',?,Very_Heavy,Launch
+1,Friday,18,1.87,35,436.45,butter,'BEANS PORTAGE','RIPE PLANTAIN',?,?,?,Ligth_Exercise,Launch
+0,Saturday,16,1.56,33,899.664,butter,egg,'jellof rice',?,?,?,Little_Or_No_Exercise,Launch
+0,Monday,17,1.67,35,914.373,butter,MEAT,'WHITE RICE',?,?,?,Ligth_Exercise,Launch
+0,Tuesday,19,1.95,58,1126.305,butter,MEAT,EBA,VEGITABLE,?,?,Moderate_Exercise,Launch
+0,Thursday,15,1.98,32,895.562,butter,FISH,AMALA,OKRA,?,?,Heavy_Exercise,Launch
+0,Wednesday,19,2.56,40,954.664,butter,?,FUFU,MELON,ORANGE,?,Very_Heavy,Launch
+0,Sunday,15,1.66,37,942.954,butter,FISH,'JOLLOF RICE ',?,' APPLE',?,Ligth_Exercise,Launch
+0,Monday,61,2.09,69,1034.771,butter,FISH,'JOLLOF RICE ',?,' APPLE',?,Little_Or_No_Exercise,Launch
+0,Friday,19,1.56,46,1010.364,butter,'WHEAT, MEAT',?,OKRA,'WATER MELON',?,Ligth_Exercise,Launch
+0,Thursday,20,1.67,69,1226.673,butter,FISH,'JOLLOF RICE ',?,' APPLE',?,Moderate_Exercise,Launch
+0,Monday,32,1.95,66,1142.005,butter,FISH,'JOLLOF RICE ',?,' APPLE',?,Heavy_Exercise,Launch
+0,Friday,71,1.98,54,843.562,butter,'WHEAT, MEAT',?,OKRA,'WATER MELON',?,Very_Heavy,Launch
+0,Saturday,44,2.56,101,1422.764,butter,MEAT,'WHITE RICE',?,?,?,Ligth_Exercise,Launch
+0,Monday,84,1.66,59,829.854,butter,MILK,'GARRI + GRANDNUT',?,?,?,Little_Or_No_Exercise,Launch
+0,Friday,26,2.09,34,863.271,butter,FISH,'POUNDED YAM',MELON,'WATER MELON',?,Ligth_Exercise,Launch
+0,Sunday,30,2.56,31,816.564,butter,'BEANS PORTAGE','RIPE PLANTAIN',?,?,?,Moderate_Exercise,Launch
+0,Sunday,55,2.54,40,785.426,butter,egg,'jellof rice',?,?,?,Heavy_Exercise,Launch
+0,Saturday,56,1.78,54,913.682,butter,MEAT,'WHITE RICE',?,?,?,Very_Heavy,Launch
+0,Friday,67,1.87,69,1006.153,butter,MEAT,EBA,VEGITABLE,?,?,Ligth_Exercise,Launch
+0,Monday,58,1.56,66,1019.064,butter,FISH,AMALA,OKRA,?,?,Little_Or_No_Exercise,Launch
+0,Friday,59,1.67,54,899.373,butter,?,FUFU,MELON,ORANGE,?,Ligth_Exercise,Launch
+0,Saturday,60,1.95,65,1000.805,butter,FISH,'JOLLOF RICE ',?,' APPLE',?,Moderate_Exercise,Launch
+0,Monday,66,1.98,59,915.062,butter,FISH,'POUNDED YAM',MELON,'WATER MELON',?,Heavy_Exercise,Launch
+0,Tuesday,53,1.87,34,735.953,butter,'BEANS PORTAGE','RIPE PLANTAIN',?,?,?,Very_Heavy,Launch
+1,Thursday,61,1.66,31,87.8,butter,egg,'jellof rice',?,?,?,Ligth_Exercise,Launch
+1,Wednesday,68,1.98,40,166,butter,MEAT,'WHITE RICE',?,?,?,Little_Or_No_Exercise,Launch
+1,Sunday,69,1.78,54,351.4,butter,MEAT,EBA,VEGITABLE,?,?,Ligth_Exercise,Launch
+1,Monday,56,1.87,75,730.05,butter,FISH,AMALA,OKRA,?,?,Moderate_Exercise,Launch
+1,Friday,43,1.56,59,596.1,butter,?,FUFU,MELON,ORANGE,?,Heavy_Exercise,Launch
+1,Thursday,44,1.67,28,162.05,butter,FISH,'JOLLOF RICE ',?,' APPLE',?,Very_Heavy,Launch
+1,Monday,45,3.45,31,205.55,butter,FISH,'JOLLOF RICE ',?,' APPLE',?,Ligth_Exercise,Launch
+1,Friday,47,2.47,40,311.25,butter,'WHEAT, MEAT',?,OKRA,'WATER MELON',?,Little_Or_No_Exercise,Launch
+1,Friday,48,1.98,54,495.2,butter,MEAT,'WHITE RICE',?,?,?,Ligth_Exercise,Launch
+1,Monday,50,2.56,65,636.3,butter,MILK,'GARRI + GRANDNUT',?,?,?,Moderate_Exercise,Launch
+1,Saturday,52,1.56,67,645.3,butter,FISH,'POUNDED YAM',MELON,'WATER MELON',?,Heavy_Exercise,Launch
+1,Monday,33,1.67,75,885.45,butter,'BEANS PORTAGE','RIPE PLANTAIN',?,?,?,Very_Heavy,Launch
+1,Friday,34,1.95,59,659.25,butter,egg,'jellof rice',?,?,?,Ligth_Exercise,Launch
+1,Sunday,37,1.98,28,211.2,butter,MEAT,'WHITE RICE',?,?,?,Little_Or_No_Exercise,Launch
+1,Sunday,38,2.56,31,248.7,butter,MEAT,EBA,VEGITABLE,?,?,Ligth_Exercise,Launch
+1,Saturday,39,2.54,40,366,butter,FISH,AMALA,OKRA,?,?,Moderate_Exercise,Launch
+1,Friday,33,2.54,31,282.6,butter,?,FUFU,MELON,ORANGE,?,Heavy_Exercise,Launch
+1,Monday,31,1.78,40,416.6,butter,FISH,'JOLLOF RICE ',?,' APPLE',?,Very_Heavy,Launch
+1,Friday,20,1.87,54,685.05,butter,FISH,'JOLLOF RICE ',?,' APPLE',?,Ligth_Exercise,Launch
+1,Saturday,30,1.56,65,767.3,butter,'WHEAT, MEAT',?,OKRA,'WATER MELON',?,Little_Or_No_Exercise,Launch
+0,Monday,27,1.67,67,1174.573,butter,FISH,'JOLLOF RICE ',?,' APPLE',?,Ligth_Exercise,Launch
+0,Tuesday,28,1.95,75,1247.205,butter,FISH,'JOLLOF RICE ',?,' APPLE',?,Moderate_Exercise,Launch
+0,Thursday,29,2.54,59,1090.026,butter,'WHEAT, MEAT',?,OKRA,'WATER MELON',?,Heavy_Exercise,Launch
+0,Wednesday,27,1.78,28,800.382,butter,MEAT,'WHITE RICE',?,?,?,Very_Heavy,Launch
+0,Sunday,26,1.87,67,1179.653,butter,MILK,'GARRI + GRANDNUT',?,?,?,Ligth_Exercise,Launch
+0,Monday,25,1.56,75,1260.564,butter,FISH,'POUNDED YAM',MELON,'WATER MELON',?,Little_Or_No_Exercise,Launch
+0,Friday,24,1.67,59,1111.873,butter,'BEANS PORTAGE','RIPE PLANTAIN',?,?,?,Ligth_Exercise,Launch
+0,Monday,23,1.95,28,819.505,butter,egg,'jellof rice',?,?,?,Moderate_Exercise,Launch
+0,Friday,22,1.98,40,939.462,butter,MEAT,'WHITE RICE',?,?,?,Heavy_Exercise,Launch
+0,Sunday,21,1.87,54,1078.353,butter,MEAT,EBA,VEGITABLE,?,?,Very_Heavy,Launch
+0,Sunday,8,0.67,32,925.973,butter,FISH,AMALA,OKRA,?,?,Ligth_Exercise,Launch
+0,Saturday,88,1.98,67,888.462,butter,FISH,FUFU,MELON,ORANGE,?,Little_Or_No_Exercise,Launch
+0,Friday,86,1.78,55,782.282,butter,FISH,'JOLLOF RICE ',?,' APPLE',?,Ligth_Exercise,Launch
+0,Monday,12,1.87,35,938.253,butter,FISH,AMALA,OKRA,?,?,Moderate_Exercise,Launch
+0,Friday,45,2.56,99,1398.864,butter,FISH,FUFU,MELON,ORANGE,?,Heavy_Exercise,Launch
+0,Saturday,21,1.87,24,790.353,butter,FISH,'JOLLOF RICE ',?,' APPLE',?,Very_Heavy,Launch
+0,Monday,10,1.56,23,831.864,butter,FISH,'JOLLOF RICE ',?,' APPLE',?,Ligth_Exercise,Launch
+0,Tuesday,9,1.01,27,873.919,butter,FISH,'POUNDED YAM',MELON,'WATER MELON',?,Little_Or_No_Exercise,Launch
+0,Thursday,5,0.67,19,815.273,butter,'BEANS PORTAGE','RIPE PLANTAIN',?,?,?,Ligth_Exercise,Launch
+1,Wednesday,4,0.54,15,249,butter,egg,'jellof rice',?,?,?,Moderate_Exercise,Launch
+1,Sunday,17,1.78,28,346.2,butter,'WHEAT, MEAT',?,OKRA,'WATER MELON',?,Heavy_Exercise,Launch
+1,Monday,9,0.93,21,299.75,butter,MEAT,'WHITE RICE',?,?,?,Very_Heavy,Launch
+1,Friday,15,1.02,30,383.6,butter,MILK,'GARRI + GRANDNUT',?,?,?,Ligth_Exercise,Launch
+?,?,?,?,?,?,?,?,?,?,?,?,Little_Or_No_Exercise,Launch

@@ -1,0 +1,120 @@
+Gender,Days,Fat,Protein,Cabohydrate,Vegitable,Vitamin,Water,Life_Style_Activity,class
+Female,Monday,butter,' WHEAT',' MEAT ',?,OKRA,' WATER MELON ',Very_Heavy,Launch
+Female,Saturday,butter,FISH,AMALA,OKRA,' WATER MELON ',tea,Heavy_Exercise,Dinner
+Female,Wednesday,meat,?,bread,?,?,tea,Moderate_Exercise,Breakfast
+Female,Thursday,meat,milk,cocopops,?,' fruit  ',?,Little_Or_No_Exercise,Breakfast
+Female,Wednesday,butter,?,FUFU,MELON,ORANGE,?,Ligth_Exercise,Launch
+Female,Monday,meat,' moimoi + egg ',pap,?,?,?,Very_Heavy,Breakfast
+Male,Tuesday,butter,FISH,AMALA,OKRA,' WATER MELON ',tea,Little_Or_No_Exercise,Dinner
+Female,Tuesday,butter,MEAT,EBA,VEGITABLE,' WATER MELON ',tea,Very_Heavy,Dinner
+Male,Monday,butter,egg,' jellof rice ',?,?,?,Ligth_Exercise,Launch
+Female,Friday,meat,' fried egg ',' fried ripe plantian ',?,?,?,Ligth_Exercise,Breakfast
+Female,Saturday,butter,FISH,' JOLLOF RICE  ',?,'  APPLE ',tea,Heavy_Exercise,Dinner
+Male,Monday,butter,egg,' jellof rice ',?,?,tea,Moderate_Exercise,Dinner
+Male,Friday,butter,?,FUFU,MELON,ORANGE,?,Moderate_Exercise,Launch
+Female,Saturday,meat,milk,' okpa + custard ',?,?,?,Moderate_Exercise,Breakfast
+Male,Monday,butter,' WHEAT',' MEAT ',?,OKRA,' WATER MELON ',Heavy_Exercise,Launch
+Female,Friday,butter,?,FUFU,MELON,ORANGE,tea,Moderate_Exercise,Dinner
+Female,Monday,butter,FISH,' POUNDED YAM ',MELON,' WATER MELON ',?,Heavy_Exercise,Launch
+Female,Wednesday,meat,?,bread,?,?,tea,Heavy_Exercise,Breakfast
+Male,Friday,butter,FISH,' JOLLOF RICE  ',?,'  APPLE ',?,Ligth_Exercise,Launch
+Male,Wednesday,meat,egg,' fried ripe plantian+ pap ',?,?,?,Moderate_Exercise,Breakfast
+Male,Sunday,butter,MEAT,' WHITE RICE ',?,' WATER MELON ',tea,Heavy_Exercise,Dinner
+Male,Monday,butter,egg,indomie,?,?,?,Very_Heavy,Breakfast
+Male,Monday,butter,egg,' jellof rice ',?,ORANGE,tea,Little_Or_No_Exercise,Dinner
+Female,Friday,butter,FISH,' POUNDED YAM ',MELON,' WATER MELON ',?,Moderate_Exercise,Launch
+Male,Monday,meat,' fried egg ',bread,?,?,?,Ligth_Exercise,Breakfast
+Male,Friday,butter,FISH,AMALA,OKRA,?,?,Very_Heavy,Launch
+Male,Friday,butter,?,bread,?,?,tea,Very_Heavy,Breakfast
+Male,Friday,butter,?,FUFU,MELON,ORANGE,tea,Little_Or_No_Exercise,Dinner
+Female,Sunday,butter,FISH,' JOLLOF RICE  ',?,'  APPLE ',tea,Moderate_Exercise,Dinner
+Female,Monday,butter,FISH,' JOLLOF RICE  ',?,'  APPLE ',tea,Moderate_Exercise,Dinner
+Male,Friday,butter,' WHEAT',' MEAT ',?,OKRA,' WATER MELON ',Little_Or_No_Exercise,Launch
+Female,Monday,butter,MEAT,EBA,VEGITABLE,?,?,Ligth_Exercise,Launch
+Male,Tuesday,meat,milk,' okpa + custard ',?,?,?,Very_Heavy,Breakfast
+Male,Saturday,meat,moimoi,pap,?,?,?,Moderate_Exercise,Breakfast
+Female,Saturday,meat,' fish stew ',bread,?,?,tea,Heavy_Exercise,Breakfast
+Female,Monday,butter,?,FUFU,MELON,ORANGE,tea,Very_Heavy,Dinner
+Male,Saturday,butter,akara,custard,?,?,?,Very_Heavy,Breakfast
+Male,Sunday,butter,' WHEAT',' MEAT ',?,OKRA,' WATER MELON ',Ligth_Exercise,Launch
+Male,Tuesday,meat,egg,custard,?,' fried unripe plantain ',?,Ligth_Exercise,Breakfast
+Male,Tuesday,butter,MEAT,EBA,VEGITABLE,?,?,Heavy_Exercise,Launch
+Male,Monday,butter,' WHEAT',' MEAT ',?,OKRA,' WATER MELON ',Heavy_Exercise,Dinner
+Female,Friday,butter,egg,' jellof rice ',?,?,?,Heavy_Exercise,Launch
+Male,Sunday,butter,FISH,' POUNDED YAM ',MELON,' WATER MELON ',tea,Very_Heavy,Dinner
+Female,Monday,butter,FISH,AMALA,OKRA,?,?,Moderate_Exercise,Launch
+Male,Sunday,butter,MEAT,' WHITE RICE ',?,?,?,Little_Or_No_Exercise,Launch
+Female,Friday,meat,beef,?,' vegitable  ',' boiled plantain ',?,Very_Heavy,Breakfast
+Male,Wednesday,butter,' WHEAT',' MEAT ',?,OKRA,' WATER MELON ',Ligth_Exercise,Launch
+Male,Monday,butter,' WHEAT',' MEAT ',?,OKRA,' WATER MELON ',Heavy_Exercise,Launch
+Male,Friday,butter,?,FUFU,MELON,ORANGE,?,Heavy_Exercise,Launch
+Male,Monday,meat,' egg sause ',' boild yam ',?,?,?,Heavy_Exercise,Breakfast
+Male,Wednesday,meat,beef,?,' vegitable  ',' boiled plantain ',?,Little_Or_No_Exercise,Breakfast
+Male,Friday,butter,' WHEAT',' MEAT ',?,OKRA,' WATER MELON ',Very_Heavy,Launch
+Female,Monday,meat,' moimoi + egg ',pap,?,?,?,Very_Heavy,Breakfast
+Female,Thursday,butter,' BEANS PORTAGE ',' RIPE PLANTAIN ',?,?,?,Very_Heavy,Launch
+Male,Saturday,meat,' fish stew ',bread,?,?,tea,Heavy_Exercise,Breakfast
+Female,Sunday,meat,egg,bread,?,?,' fruit juice ',Moderate_Exercise,Breakfast
+Male,Saturday,butter,FISH,' JOLLOF RICE  ',MELON,'  APPLE ',tea,Heavy_Exercise,Dinner
+Female,Monday,meat,milk,' okpa + pap ',?,?,?,Ligth_Exercise,Breakfast
+Female,Saturday,meat,egg,' fried ripe plantian+ pap ',?,?,?,Heavy_Exercise,Breakfast
+Female,Wednesday,meat,?,bread,?,?,tea,Heavy_Exercise,Breakfast
+Female,Thursday,butter,FISH,AMALA,OKRA,?,?,Heavy_Exercise,Launch
+Male,Friday,meat,egg,bread,?,?,' fruit juice ',Little_Or_No_Exercise,Breakfast
+Male,Monday,butter,MEAT,' WHITE RICE ',?,' WATER MELON ',tea,Moderate_Exercise,Dinner
+Female,Sunday,butter,?,FUFU,MELON,ORANGE,tea,Very_Heavy,Dinner
+Female,Thursday,butter,FISH,AMALA,OKRA,?,?,Heavy_Exercise,Launch
+Female,Tuesday,butter,FISH,' JOLLOF RICE  ',?,'  APPLE ',?,Heavy_Exercise,Launch
+Male,Thursday,meat,egg,bread,?,?,' fruit juice ',Ligth_Exercise,Breakfast
+Female,Wednesday,butter,?,FUFU,MELON,ORANGE,tea,Ligth_Exercise,Dinner
+Male,Tuesday,butter,MEAT,EBA,VEGITABLE,' WATER MELON ',tea,Heavy_Exercise,Dinner
+Male,Friday,butter,egg,' jellof rice ',?,?,?,Ligth_Exercise,Launch
+Female,Sunday,meat,' fried egg ',bread,?,?,?,Very_Heavy,Breakfast
+Female,Thursday,butter,' WHEAT',' MEAT ',?,OKRA,' WATER MELON ',Ligth_Exercise,Launch
+Female,Monday,butter,' WHEAT',' MEAT ',?,OKRA,' WATER MELON ',Moderate_Exercise,Launch
+Male,Friday,butter,' WHEAT',' MEAT ',?,OKRA,' WATER MELON ',Heavy_Exercise,Launch
+Female,Monday,butter,MEAT,EBA,VEGITABLE,?,?,Ligth_Exercise,Launch
+Male,Thursday,butter,egg,' jellof rice ',OKRA,' WATER MELON ',tea,Little_Or_No_Exercise,Dinner
+Male,Sunday,butter,' WHEAT',' MEAT ',?,OKRA,' WATER MELON ',Ligth_Exercise,Launch
+Male,Thursday,butter,FISH,AMALA,OKRA,' WATER MELON ',tea,Little_Or_No_Exercise,Dinner
+Female,Wednesday,meat,egg,custard,?,' fried unripe plantain ',?,Moderate_Exercise,Breakfast
+Male,Wednesday,butter,FISH,' JOLLOF RICE  ',?,'  APPLE ',?,Moderate_Exercise,Launch
+Male,Monday,meat,' fried egg ',bread,?,?,?,Ligth_Exercise,Breakfast
+Male,Monday,meat,egg,custard,?,' fried unripe plantain ',?,Little_Or_No_Exercise,Breakfast
+Male,Friday,butter,beef,?,' vegitable  ',' boiled plantain ',?,Moderate_Exercise,Breakfast
+Male,Monday,meat,moimoi,custard,?,?,?,Heavy_Exercise,Breakfast
+Male,Tuesday,meat,' egg sause ',' boild yam ',?,?,?,Little_Or_No_Exercise,Breakfast
+Female,Saturday,butter,FISH,FUFU,MELON,ORANGE,?,Little_Or_No_Exercise,Launch
+Male,Wednesday,meat,egg,bread,?,?,' fruit juice ',Ligth_Exercise,Breakfast
+Female,Friday,butter,MEAT,EBA,VEGITABLE,?,?,Little_Or_No_Exercise,Launch
+Male,Wednesday,butter,MEAT,' WHITE RICE ',?,?,?,Little_Or_No_Exercise,Launch
+Male,Friday,butter,FISH,' POUNDED YAM ',MELON,' WATER MELON ',?,Ligth_Exercise,Launch
+Male,Monday,butter,FISH,' JOLLOF RICE  ',MELON,'  APPLE ',tea,Moderate_Exercise,Dinner
+Female,Saturday,meat,' fried egg ',' fried ripe plantian ',?,?,?,Moderate_Exercise,Breakfast
+Male,Monday,meat,beef,?,' vegitable  ',' boiled plantain ',?,Very_Heavy,Breakfast
+Female,Tuesday,butter,MEAT,EBA,VEGITABLE,' WATER MELON ',tea,Very_Heavy,Dinner
+Male,Monday,butter,' WHEAT',' MEAT ',?,OKRA,' WATER MELON ',Heavy_Exercise,Dinner
+Female,Monday,meat,?,bread,' vegitable  ',?,tea,Very_Heavy,Breakfast
+Male,Sunday,meat,beef,?,' vegitable  ',' boiled plantain ',?,Heavy_Exercise,Breakfast
+Female,Sunday,meat,egg,bread,?,?,' fruit juice ',Very_Heavy,Breakfast
+Female,Monday,meat,' fried egg ',bread,?,?,?,Little_Or_No_Exercise,Breakfast
+Male,Friday,butter,MEAT,' WHITE RICE ',?,?,?,Ligth_Exercise,Launch
+Male,Saturday,butter,' WHEAT',' MEAT ',?,OKRA,' WATER MELON ',Heavy_Exercise,Dinner
+Female,Saturday,butter,FISH,' JOLLOF RICE  ',?,'  APPLE ',tea,Little_Or_No_Exercise,Dinner
+Male,Friday,butter,FISH,' JOLLOF RICE  ',?,'  APPLE ',?,Ligth_Exercise,Launch
+Female,Tuesday,butter,' WHEAT',' MEAT ',?,OKRA,' WATER MELON ',Heavy_Exercise,Dinner
+Male,Thursday,butter,egg,' jellof rice ',?,?,?,Ligth_Exercise,Launch
+Male,Friday,meat,' egg sause ',' boild yam ',?,?,?,Ligth_Exercise,Breakfast
+Male,Wednesday,butter,MEAT,' WHITE RICE ',?,' WATER MELON ',tea,Ligth_Exercise,Dinner
+Male,Friday,butter,?,FUFU,MELON,ORANGE,?,Moderate_Exercise,Launch
+Male,Thursday,meat,milk,' okpa + pap ',?,?,?,Little_Or_No_Exercise,Breakfast
+Male,Monday,butter,FISH,' JOLLOF RICE  ',?,'  APPLE ',?,Very_Heavy,Launch
+Female,Wednesday,butter,FISH,AMALA,OKRA,?,?,Little_Or_No_Exercise,Launch
+Male,Friday,butter,egg,' jellof rice ',?,' WATER MELON ',tea,Little_Or_No_Exercise,Dinner
+Male,Friday,meat,egg,indomie,?,?,?,Moderate_Exercise,Breakfast
+Female,Monday,butter,MEAT,' WHITE RICE ',MELON,?,tea,Very_Heavy,Dinner
+Male,Saturday,meat,' fried egg ',' fried ripe plantian ',?,?,?,Very_Heavy,Breakfast
+Male,Wednesday,meat,egg,bread,?,?,' fruit juice ',Moderate_Exercise,Breakfast
+Female,Monday,butter,FISH,AMALA,OKRA,ORANGE,tea,Ligth_Exercise,Dinner
+Female,Saturday,butter,FISH,' JOLLOF RICE  ',?,'  APPLE ',tea,Heavy_Exercise,Dinner
+Male,Friday,meat,milk,' okpa + pap ',?,?,?,Little_Or_No_Exercise,Breakfast
